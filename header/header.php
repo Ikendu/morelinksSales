@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="header/headerStyle.css">
+  <link rel="stylesheet" href="styles/headerStyle.css">
   <title>Document</title>
 </head>
 
 <body>
   <header>
-    <div><img src="header/utilities/logoImage.png" alt="logo" class="logo" /></div>
+    <div><img src="utilities/logoImage.png" alt="logo" class="logo" /></div>
 
     <div class="search">Search MoreLinks</div>
     <div class="headerlinks">
