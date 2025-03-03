@@ -10,16 +10,17 @@
 
 <body>
   <header>
-    <div><img src="utilities/logoImage.png" alt="logo" class="logo" /></div>
-
-    <div class="search">Search MoreLinks</div>
-    <div class="headerlinks">
-      <ul>
-        <li>Contact Us</li>
-        <li>Sale Online</li>
-        <li>Sign In</li>
-        <li><a href="cart.html">Support</a></li>
-      </ul>
+    <div class="header">
+      <img src="utilities/logoImage.png" alt="logo" class="logo" />
+      <div class="search">Search MoreLinks</div>
+      <div class="headerlinks">
+        <ul>
+          <li>Contact Us</li>
+          <li>Sale Online</li>
+          <li>Sign In</li>
+          <li><a href="cart.html">Support</a></li>
+        </ul>
+      </div>
     </div>
   </header>
 </body>
