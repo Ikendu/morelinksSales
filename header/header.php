@@ -10,20 +10,34 @@
 
 <body>
   <header>
+    <!-- <div class="header-container"></div> -->
     <div class="header">
       <img src="utilities/logoImage.png" alt="logo" class="logo" />
       <div class="search">
         <input type="search" placeholder="Search MoreLinks">
-        <span><img src="utilities/search.png" alt=""></span>
+        <span><img src="utilities/search.png" alt="Search MoreLinks"></span>
       </div>
       <div class="headerlinks">
         <ul>
-          <li><a href="contact.html" Contact Us></a></li>
-          <li><a href="register.html">Sale Online</a></li>
-          <li><a href="signin.html">Sign In</a></li>
+          <li>
+            <a href="contact.html">
+              <img src="utilities/contact.png" alt="Contact us">
+              Contact Us</a>
+          </li>
+          <!-- <li>
+            <a href="register.html">
+              <img src="utilities/handshake.png" alt="">
+              Sale Online</a>
+          </li> -->
+          <li>
+            <a href="signin.html">
+              <img src="utilities/user.png" alt="">
+              Register
+            </a>
+          </li>
           <li>
             <a href="support.html">
-              <img src="utilities/support.png" alt="">
+              <img src="utilities/handshake.png" alt="">
               <span>Support</span>
             </a>
           </li>

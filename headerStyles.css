@@ -1,14 +1,19 @@
-.logo {
-  width: 50px;
-  border-radius: 10px;
-  cursor: pointer;
+header {
+  background-color: #f7be08;
+  padding: 0 10px;
 }
 .header {
   display: flex;
   flex-shrink: initial;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  /* background-color: rgb(217, 180, 252); */
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+.logo {
+  width: 50px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 .header ul {
   display: flex;
@@ -17,16 +22,12 @@
   list-style: none;
 }
 .header ul li {
-  padding: 0 20px;
   cursor: pointer;
   text-decoration: none;
-  padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
   /* border-right: 1px solid; */
-}
-.header ul li:hover {
-  /* color: rgb(217, 180, 252); */
-  background-color: rgb(217, 180, 252);
 }
 .header ul li a {
   text-decoration: none;
@@ -34,10 +35,22 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  padding-right: 20px;
+  border-radius: 10px;
 }
+.header ul li a:hover {
+  /* color: rgb(217, 180, 252); */
+  background-color: rgb(217, 180, 252);
+}
+
 /* .header ul li:last-child {
   border-right: none;
 } */
+.header ul li a img {
+  padding: 10px;
+  background-color: rgb(217, 180, 252);
+  border-radius: 10px;
+}
 .search {
   width: 25%;
   position: relative;
@@ -72,6 +85,7 @@
   background-color: rgb(217, 180, 252);
   position: relative;
 }
+
 .cart:hover {
   background-color: rgb(124, 214, 139);
 }
