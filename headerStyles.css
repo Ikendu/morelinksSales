@@ -1,0 +1,86 @@
+.logo {
+  width: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  flex-shrink: initial;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(217, 180, 252); */
+}
+.header ul {
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+.header ul li {
+  padding: 0 20px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+  /* border-right: 1px solid; */
+}
+.header ul li:hover {
+  /* color: rgb(217, 180, 252); */
+  background-color: rgb(217, 180, 252);
+}
+.header ul li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+/* .header ul li:last-child {
+  border-right: none;
+} */
+.search {
+  width: 25%;
+  position: relative;
+}
+.search input {
+  height: 30px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 1em;
+}
+.search input:focus {
+  outline: none;
+}
+.search span {
+  position: absolute;
+  width: 20px;
+  right: 3px;
+  top: 3px;
+  padding: 5px 8px 3px;
+  border-radius: 20px;
+  background-color: rgb(217, 180, 252);
+  cursor: pointer;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: rgb(217, 180, 252);
+  position: relative;
+}
+.cart:hover {
+  background-color: rgb(124, 214, 139);
+}
+.cartItems {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(153, 47, 252);
+  padding: 2px 5px;
+  border-radius: 50%;
+  color: azure;
+}

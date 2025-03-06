@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/headerStyle.css">
+  <link rel="stylesheet" href="headerStyles.css">
   <title>Document</title>
 </head>
 
@@ -12,14 +12,26 @@
   <header>
     <div class="header">
       <img src="utilities/logoImage.png" alt="logo" class="logo" />
-      <div class="search">Search MoreLinks</div>
+      <div class="search">
+        <input type="search" placeholder="Search MoreLinks">
+        <span><img src="utilities/search.png" alt=""></span>
+      </div>
       <div class="headerlinks">
         <ul>
-          <li>Contact Us</li>
-          <li>Sale Online</li>
-          <li>Sign In</li>
-          <li><a href="cart.html">Support</a></li>
+          <li><a href="contact.html" Contact Us></a></li>
+          <li><a href="register.html">Sale Online</a></li>
+          <li><a href="signin.html">Sign In</a></li>
+          <li>
+            <a href="support.html">
+              <img src="utilities/support.png" alt="">
+              <span>Support</span>
+            </a>
+          </li>
         </ul>
+      </div>
+      <div class="cart">
+        <img src="utilities/cart.png" alt="shopping cart">
+        <span class="cartItems">0</span>
       </div>
     </div>
   </header>
