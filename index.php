@@ -12,6 +12,10 @@
 <body>
     <div class="container">
         <?php include 'header/header.php' ?>
+        <div class="main">
+            <?php include 'sidebar/sidebar.php' ?>
+        </div>
+
     </div>
 
     <!-- <div>Hello You are welcome</div> -->

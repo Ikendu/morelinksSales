@@ -48,7 +48,28 @@
         <span class="cartItems">0</span>
       </div>
     </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Furniture</a></li>
+        <li><a href="about.html">Cusion</a></li>
+        <li><a href="services.html">Tables</a></li>
+        <li><a href="products.html">Living Room</a></li>
+        <li><a href="contact.html">Dining Table</a></li>
+        <li><a href="news.html">Bedroom</a></li>
+        <li><a href="news.html">Office</a></li>
+        <li><a href="news.html">Outdoor</a></li>
+        <li><a href="news.html">Kitchen</a></li>
+        <li><a href="news.html">Bathroom</a></li>
+        <li><a href="news.html">Kids</a></li>
+        <li><a href="news.html">Lighting</a></li>
+        <li><a href="news.html">Decor</a></li>
+
+      </ul>
+    </nav>
   </header>
+  <div>
+
+  </div>
 </body>
 
 </html>
