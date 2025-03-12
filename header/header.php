@@ -4,18 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="headerStyles.css">
+  <link rel="stylesheet" href="headerStyles.css?v=<?php echo time(); ?>">
   <title>Document</title>
 </head>
 
 <body>
   <header>
-    <!-- <div class="header-container"></div> -->
-    <div class="header">
+    <div class="header-section">
       <img src="utilities/logoImage.png" alt="logo" class="logo" />
       <div class="search">
         <input type="search" placeholder="Search MoreLinks">
-        <span><img src="utilities/search.png" alt="Search MoreLinks"></span>
+        <span><img src="utilities/search.png" alt="Search MoreLinks" class="searchIcon"></span>
       </div>
       <div class="headerlinks">
         <ul>
@@ -53,14 +52,11 @@
         <li><a href="index.html">Furniture</a></li>
         <li><a href="about.html">Cusion</a></li>
         <li><a href="services.html">Tables</a></li>
-        <li><a href="products.html">Living Room</a></li>
-        <li><a href="contact.html">Dining Table</a></li>
         <li><a href="news.html">Bedroom</a></li>
         <li><a href="news.html">Office</a></li>
         <li><a href="news.html">Outdoor</a></li>
         <li><a href="news.html">Kitchen</a></li>
         <li><a href="news.html">Bathroom</a></li>
-        <li><a href="news.html">Kids</a></li>
         <li><a href="news.html">Lighting</a></li>
         <li><a href="news.html">Decor</a></li>
 
