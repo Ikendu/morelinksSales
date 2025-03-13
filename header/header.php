@@ -10,7 +10,7 @@
 
 <body>
   <header>
-    <div class="header-section">
+    <div class="header">
       <img src="utilities/logoImage.png" alt="logo" class="logo" />
       <div class="search">
         <input type="search" placeholder="Search MoreLinks">
@@ -21,7 +21,8 @@
           <li>
             <a href="contact.html">
               <img src="utilities/contact.png" alt="Contact us">
-              Contact Us</a>
+              Contact Us
+            </a>
           </li>
           <!-- <li>
             <a href="register.html">

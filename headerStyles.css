@@ -1,5 +1,6 @@
 header {
-  background-color: #f7be08;
+  /* background-color: #f7be08; */
+  position: relative;
 }
 .header {
   display: flex;
@@ -16,7 +17,6 @@ header {
 }
 .header ul {
   display: flex;
-  gap: 10px;
   text-decoration: none;
   list-style: none;
 }
@@ -26,28 +26,22 @@ header {
   border-radius: 10px;
   display: flex;
   align-items: center;
+  padding: 10px 15px;
   /* border-right: 1px solid; */
 }
 .header ul li a {
   text-decoration: none;
-  color: black;
+  color: #2c2c2c;
   display: flex;
-  align-items: center;
   gap: 5px;
-  padding-right: 20px;
-  border-radius: 10px;
+  align-items: center;
 }
-.header ul li a:hover {
+.header ul li:hover {
   /* color: rgb(217, 180, 252); */
   background-color: rgb(217, 180, 252);
 }
 
-/* .header ul li:last-child {
-  border-right: none;
-} */
 .header ul li a img {
-  padding: 10px;
-  background-color: rgb(217, 180, 252);
   border-radius: 10px;
 }
 .search {
