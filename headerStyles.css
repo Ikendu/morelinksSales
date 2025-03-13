@@ -1,14 +1,14 @@
 header {
-  /* background-color: #f7be08; */
+  background-color: #d4d5d6;
   position: relative;
+  z-index: 100;
 }
 .header {
   display: flex;
-  flex-shrink: initial;
   justify-content: space-around;
   align-items: center;
   /* max-width: 1200px; */
-  margin: 0 auto;
+  padding: 10px;
 }
 .logo {
   width: 50px;
@@ -33,9 +33,9 @@ header {
 }
 .search span {
   position: absolute;
-  right: 3px;
+  right: 2px;
   top: 2px;
-  padding: 5px 8px 3px;
+  padding: 5px 7px 7px 8px;
   border-radius: 20px;
   background-color: #cad7fa;
   cursor: pointer;
@@ -44,8 +44,10 @@ header {
 }
 .header ul {
   display: flex;
+  align-items: center;
   text-decoration: none;
   list-style: none;
+  margin: auto;
 }
 .header ul li {
   cursor: pointer;
@@ -90,11 +92,12 @@ header {
   background-color: rgb(124, 214, 139);
 }
 .cartItems {
+  display: block;
   position: absolute;
   top: 0;
   right: 0;
   background-color: #aa0874;
-  padding: 2px 5px;
+  padding: 0px 5px;
   border-radius: 50%;
   color: azure;
 }
@@ -103,7 +106,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #080808;
+  background: linear-gradient(#d4d5d6, #3532c5 40% 70%, #d4d5d66e);
   padding: 0 10px;
   margin: 0;
 }
@@ -114,5 +117,5 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: #eeecea;
+  color: #c7c5c9;
 }

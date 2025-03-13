@@ -60,7 +60,6 @@
         <li><a href="news.html">Bathroom</a></li>
         <li><a href="news.html">Lighting</a></li>
         <li><a href="news.html">Decor</a></li>
-
       </ul>
     </nav>
   </header>

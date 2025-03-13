@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="contain">
         <?php include 'header/header.php' ?>
         <div class="main">
             <?php include 'sidebar/sidebar.php' ?>
