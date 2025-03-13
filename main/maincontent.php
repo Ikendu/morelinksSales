@@ -10,17 +10,12 @@
 
 <body>
     <div class="maincontent">
-        <h2>More content</h2>
-        <h2>More content</h2>
-        <h2>More content</h2>
-        <h2>More content</h2>
-        <h2>More content</h2>
-        <h2>More content</h2>
-        <h2>More content</h2>
-        <h2>More content</h2>
-        <h2>More content</h2>
-        <h2>More content</h2>
+
     </div>
+    <style>
+
+    </style>
+
 </body>
 
 </html>

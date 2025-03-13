@@ -21,6 +21,10 @@ body {
   width: 100%;
   display: flex;
 }
+
+.poster {
+  position: relative;
+}
 .mainpage {
   position: absolute;
   right: 0;
@@ -95,4 +99,25 @@ body {
 .actionbtn button:hover {
   background-color: #b5b6f5;
   color: black;
+}
+
+.custom-shape-divider-bottom-1741869709 {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1741869709 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 95px;
+}
+
+.custom-shape-divider-bottom-1741869709 .shape-fill {
+  fill: #d4d5d6;
 }

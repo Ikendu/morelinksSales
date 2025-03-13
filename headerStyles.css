@@ -1,7 +1,8 @@
 header {
+  position: fixed;
   background-color: #d4d5d6;
-  position: relative;
   z-index: 100;
+  width: 100%;
 }
 .header {
   display: flex;
@@ -119,4 +120,25 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #c7c5c9;
+}
+
+.custom-shape-divider-bottom-1741867119 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1741867119 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 127px;
+}
+
+.custom-shape-divider-bottom-1741867119 .shape-fill {
+  fill: #d4d5d6;
 }
