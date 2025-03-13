@@ -15,6 +15,33 @@ header {
   border-radius: 10px;
   cursor: pointer;
 }
+
+.search {
+  width: 25%;
+  position: relative;
+}
+.search input {
+  height: 30px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 1em;
+  border: none;
+}
+.search input:focus {
+  outline: none;
+}
+.search span {
+  position: absolute;
+  right: 3px;
+  top: 2px;
+  padding: 5px 8px 3px;
+  border-radius: 20px;
+  background-color: #cad7fa;
+  cursor: pointer;
+}
+.searchIcon {
+}
 .header ul {
   display: flex;
   text-decoration: none;
@@ -37,37 +64,17 @@ header {
   align-items: center;
 }
 .header ul li:hover {
-  /* color: rgb(217, 180, 252); */
-  background-color: rgb(217, 180, 252);
+  color: rgb(217, 180, 252);
+  background-color: #cad7fa;
+}
+.header ul li a:hover {
+  color: rgb(29, 6, 161);
 }
 
 .header ul li a img {
   border-radius: 10px;
 }
-.search {
-  width: 25%;
-  position: relative;
-}
-.search input {
-  height: 30px;
-  padding: 20px;
-  width: 100%;
-  border-radius: 20px;
-  font-size: 1em;
-}
-.search input:focus {
-  outline: none;
-}
-.search span {
-  position: absolute;
-  width: 20px;
-  right: 3px;
-  top: 3px;
-  padding: 5px 8px 3px;
-  border-radius: 20px;
-  background-color: rgb(217, 180, 252);
-  cursor: pointer;
-}
+
 .cart {
   display: flex;
   align-items: center;
@@ -75,7 +82,7 @@ header {
   padding: 10px;
   cursor: pointer;
   border-radius: 20px;
-  background-color: rgb(217, 180, 252);
+  background-color: #cad7fa;
   position: relative;
 }
 
@@ -86,7 +93,7 @@ header {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: rgb(153, 47, 252);
+  background-color: #aa0874;
   padding: 2px 5px;
   border-radius: 50%;
   color: azure;

@@ -38,7 +38,7 @@
           <li>
             <a href="support.html">
               <img src="utilities/handshake.png" alt="">
-              <span>Support</span>
+              <span>Ask me</span>
             </a>
           </li>
         </ul>
