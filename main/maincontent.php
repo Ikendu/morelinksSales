@@ -11,19 +11,43 @@
 <body>
     <div class="maincontent">
         <div class="contentHead">
-            <h3>More-Links furnitures and Home comfort utilites</h3>
+            <h3>More-Links Furnitures and Home Comfort Utilites</h3>
             <p>New products, more collections.</p>
             <p>Visit different category to navigate your choice destination</p>
         </div>
-        <section>
+        <section class="goods">
             <div class="goodsdisplay">
                 <img src="utilities/images/2.jpg" alt="">
                 <div class="discription">
-                    <h4>Middle-Mind Wadrode</h4>
-                    <p>Living room</p>
+                    <h4>Durable Fit</h4>
+                    <p>Sit out space</p>
                     <div class="price">
-                        <h3>₦ 200,000</h3>
-                        <div>
+                        <h5>₦ 200,000</h5>
+                        <div class="addMore">
+                            <button>+</button>
+                            <span>1</span>
+                            <button>-</button>
+                        </div>
+                    </div>
+                    <div class="btnSales">
+                        <button class="reachUsBtn">
+                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                            <span>Reach us for this</span>
+                        </button>
+                        <button class="cartBtn">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="goodsdisplay">
+                <img src="utilities/images/15.jpg" alt="">
+                <div class="discription">
+                    <h4>Excel Space</h4>
+                    <p>Living room / cushion / decoration</p>
+                    <div class="price">
+                        <h5>₦ 400,000</h5>
+                        <div class="addMore">
                             <button>+</button>
                             <span>1</span>
                             <button>-</button>

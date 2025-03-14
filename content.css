@@ -5,6 +5,12 @@
 }
 .contentHead {
 }
+.goods {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .contentHead h3 {
   font-weight: 900;
   font-size: 40px;
@@ -12,10 +18,12 @@
 }
 .goodsdisplay {
   position: relative;
-  width: 50%;
+  width: 47%;
 }
 .goodsdisplay img {
   width: 100%;
+  max-height: 370px;
+  object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
 .discription {
@@ -28,16 +36,28 @@
   align-items: center;
   justify-content: space-between;
 }
-.price h3 {
+.price h5 {
   color: rgb(126, 23, 23);
+  font-weight: bold;
+  letter-spacing: 3px;
 }
 .price button {
-  background-color: rgb(38, 38, 116);
+  background-color: #222299;
   color: #dad7d7;
-  padding: 1px 10px;
+  padding: 1px 15px;
   border-radius: 3px;
   font-size: 1.1em;
   border: none;
+}
+.addMore {
+  display: flex;
+  gap: 10px;
+}
+.btnSales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
 }
 .cartBtn,
 .reachUsBtn {
@@ -50,20 +70,19 @@
   color: #dad9d8;
   border: none;
 }
+.cartBtn:hover,
+.reachUsBtn:hover {
+  background-color: #22702e;
+}
 .reachUsBtn {
   display: flex;
   justify-content: space-between;
-  background-color: green;
+  background-color: #38a048;
 }
 .reachUsBtn img {
   max-width: 30px;
 }
-.btnSales {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .cartBtn {
-  background-color: #232363;
+  background-color: #222299;
   text-align: center;
 }
