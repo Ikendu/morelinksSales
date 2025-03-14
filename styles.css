@@ -30,10 +30,10 @@ body {
   right: 0;
   top: 105px;
   left: 40x;
-  background-image: url('utilities/frontImage2.jpg');
+  background-image: url('utilities/images/14.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
   background-attachment: fixed;
   /* height: 100vh; */
   width: 100%;

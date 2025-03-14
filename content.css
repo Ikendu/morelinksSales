@@ -1,4 +1,33 @@
 .maincontent {
   position: relative;
   background-color: #d4d5d6;
+  padding: 50px 30px;
+}
+.contentHead {
+}
+.contentHead h3 {
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.goodsdisplay {
+  position: relative;
+  width: 50%;
+}
+.goodsdisplay img {
+  width: 100%;
+  border-radius: 10px;
+}
+.discription {
+  margin: 50px 20px;
+}
+
+.price {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: space-between;
+}
+.price h3 {
+  color: rgb(126, 23, 23);
 }
