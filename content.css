@@ -16,18 +16,54 @@
 }
 .goodsdisplay img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 .discription {
-  margin: 50px 20px;
+  margin: 20px;
 }
 
 .price {
   display: flex;
-  gap: 3px;
+  gap: 5px;
   align-items: center;
   justify-content: space-between;
 }
 .price h3 {
   color: rgb(126, 23, 23);
+}
+.price button {
+  background-color: rgb(38, 38, 116);
+  color: #dad7d7;
+  padding: 1px 10px;
+  border-radius: 3px;
+  font-size: 1.1em;
+  border: none;
+}
+.cartBtn,
+.reachUsBtn {
+  width: max(40%, 40px);
+  border-radius: 10px;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1em;
+  color: #dad9d8;
+  border: none;
+}
+.reachUsBtn {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+}
+.reachUsBtn img {
+  max-width: 30px;
+}
+.btnSales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartBtn {
+  background-color: #232363;
+  text-align: center;
 }

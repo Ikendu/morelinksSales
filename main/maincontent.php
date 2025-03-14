@@ -17,22 +17,27 @@
         </div>
         <section>
             <div class="goodsdisplay">
-                <img src="utilities/images/1.jpg" alt="">
+                <img src="utilities/images/2.jpg" alt="">
                 <div class="discription">
                     <h4>Middle-Mind Wadrode</h4>
                     <p>Living room</p>
                     <div class="price">
                         <h3>₦ 200,000</h3>
                         <div>
-                            <button>-</button>
-                            <span>1</span>
                             <button>+</button>
+                            <span>1</span>
+                            <button>-</button>
                         </div>
                     </div>
-                    <button class="addtocart">
-                        <span>Whatsapp</span>
-                        <span>Reach us for this</span>
-                    </button>
+                    <div class="btnSales">
+                        <button class="reachUsBtn">
+                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                            <span>Reach us for this</span>
+                        </button>
+                        <button class="cartBtn">
+                            Add to cart
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
