@@ -44,7 +44,7 @@
 .price button {
   background-color: #222299;
   color: #dad7d7;
-  padding: 1px 15px;
+  padding: 0px 15px 3px;
   border-radius: 3px;
   font-size: 1.1em;
   border: none;
