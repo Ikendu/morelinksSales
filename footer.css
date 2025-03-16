@@ -10,7 +10,19 @@ footer {
 .footercontent {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px;
+}
+.footercontent0 {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.footercontent0 img {
+  width: 150px;
+  border-radius: 10px;
+}
+li {
+  margin-right: 20px;
 }
 ul {
   list-style-type: none;
