@@ -53,6 +53,8 @@
         </div>
 
         <?php include 'main/maincontent.php' ?>
+
+        <?php include 'footer/footer.html' ?>
     </section>
 </body>
 
