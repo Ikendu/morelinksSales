@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="maincontent">
+    <div class="maincontent" id="maincontent">
         <div class="contentHead">
             <h3>More-Links Furnitures and Home Comfort Utilites</h3>
             <p>New products, more collections.</p>
