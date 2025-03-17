@@ -9,13 +9,18 @@ footer {
 }
 .footercontent {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
+  line-height: 35px;
+}
+.footercontent a:hover {
+  color: aliceblue;
 }
 .footercontent0 {
   display: flex;
   gap: 10px;
   justify-content: space-between;
+  max-width: 500px;
 }
 .footercontent0 img {
   width: 150px;
@@ -32,4 +37,8 @@ ul {
 a {
   color: #949292;
   text-decoration: none;
+}
+
+.footer {
+  text-align: center;
 }
