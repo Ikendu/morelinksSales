@@ -3,14 +3,11 @@ footer {
   background-color: #090f30;
   color: rgb(168, 166, 166);
 }
-.footer {
-  position: relative;
-  bottom: 0;
-}
+
 .footercontent {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 50px 20px;
   line-height: 35px;
 }
 .footercontent a:hover {
@@ -40,5 +37,9 @@ a {
 }
 
 .footer {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(35, 33, 37);
 }
