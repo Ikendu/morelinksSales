@@ -59,16 +59,10 @@ body {
   font-family: 'Cinzel';
 }
 
-/* .landingtext {
-  background-color: #d4d5d6;
-  padding: 20px 40px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 20px #e8e3e3, -5px -5px 20px #e8e3e3;
-} */
 .landing h4 {
   font-family: Verdana;
   color: #0f0f0f;
-  text-shadow: 4px 4px 5px #f1eeee, -1px -4px 5px #f1eeee;
+  /* text-shadow: 4px 4px 5px #f1eeee; */
   font-weight: 900;
 }
 .caption-text {
