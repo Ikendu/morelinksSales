@@ -25,17 +25,17 @@
                     <div class="price">
                         <h5>₦ 200,000</h5>
                         <div class="addMore">
-                            <button onclick="updateQuantity(1, 1)">+</button>
-                            <span id="one">0</span>
-                            <button onclick="updateQuantity(1, -1)">-</button>
+                            <button onclick="updateProductQuantity('Product1', 20, 1, '2.jpg')">+</button>
+                            <span id="quantityProduct1">0</span>
+                            <button onclick="updateProductQuantity('Product1', 20, -1, '2.jpg')">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Reach us for this</span>
+                            <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product 1', 1000, 1)">
+                        <button class="cartBtn" onclick="addToCart('Product1', 20, '2.jpg',)">
                             Add to cart
                         </button>
                     </div>
@@ -52,17 +52,17 @@
                     <div class="price">
                         <h5>₦ 400,000</h5>
                         <div class="addMore">
-                            <button onclick="updateQuantity(2, 1)">+</button>
-                            <span id='two'>0</span>
-                            <button onclick="updateQuantity(2, -1)">-</button>
+                            <button onclick="updateProductQuantity('Product2', 40, 1, '15.jpg')">+</button>
+                            <span id='quantityProduct2'>0</span>
+                            <button onclick="updateProductQuantity('Product2', 40, -1, '15.jpg')">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Reach us for this</span>
+                            <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product 2', 2000, 2)">
+                        <button class="cartBtn" onclick="addToCart('Product2', 40, '15.jpg',)">
                             Add to cart
                         </button>
                     </div>
@@ -79,17 +79,17 @@
                     <div class="price">
                         <h5>₦ 200,000</h5>
                         <div class="addMore">
-                            <button onclick="updateQuantity(3, 1)">+</button>
-                            <span id="three">0</span>
-                            <button onclick="updateQuantity(3, -1)">-</button>
+                            <button onclick="updateProductQuantity('Product3', 20, 1, '11.jpg')">+</button>
+                            <span id="quantityProduct3">0</span>
+                            <button onclick="updateProductQuantity('Product3', 20, -1, '11.jpg')">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Reach us for this</span>
+                            <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product 3', 3000, 3)">
+                        <button class="cartBtn" onclick="addToCart('Product3', 20, '11.jpg',)">
                             Add to cart
                         </button>
                     </div>
@@ -106,17 +106,17 @@
                     <div class="price">
                         <h5>₦ 4,000,000</h5>
                         <div class="addMore">
-                            <button onclick="updateQuantity(4, 1)">+</button>
-                            <span id="four">0</span>
-                            <button onclick="updateQuantity(4, -1)">-</button>
+                            <button onclick="updateProductQuantity('Product4', 40, 1, '3.jpg')">+</button>
+                            <span id="quantityProduct4">0</span>
+                            <button onclick="updateProductQuantity('Product4', 40, -1 , '3.jpg')">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Reach us for this</span>
+                            <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product 4', 1000, 4)">
+                        <button class="cartBtn" onclick="addToCart('Product4', 40, '3.jpg',)">
                             Add to cart
                         </button>
                     </div>
@@ -134,17 +134,17 @@
                     <div class="price">
                         <h5>₦ 4,000,000</h5>
                         <div class="addMore">
-                            <button onclick="updateQuantity(5, 1)">+</button>
-                            <span id="five">0</span>
-                            <button onclick="updateQuantity(5, -1)">-</button>
+                            <button onclick="updateProductQuantity('Product5', 40, 1, '8.jpg')">+</button>
+                            <span id="quantityProduct5">0</span>
+                            <button onclick="updateProductQuantity('Product5', 40, -1, '8.jpg')">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Reach us for this</span>
+                            <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product 5', 2000, 5)">
+                        <button class="cartBtn" onclick="addToCart('Product5', 40, '8.jpg')">
                             Add to cart
                         </button>
                     </div>
@@ -161,17 +161,17 @@
                     <div class="price">
                         <h5>₦ 4,000,000</h5>
                         <div class="addMore">
-                            <button onclick="updateQuantity(6, 1)">+</button>
-                            <span id="six">0</span>
-                            <button onclick="updateQuantity(6, -1)">-</button>
+                            <button onclick="updateProductQuantity('Product6', 40, 1, '9.jpg')">+</button>
+                            <span id="quantityProduct6">0</span>
+                            <button onclick="updateProductQuantity('Product6', 40, -1, '9.jpg')">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Reach us for this</span>
+                            <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product 6', 3000, 6)">
+                        <button class="cartBtn" onclick="addToCart('Product6', 40, '9.jpg')">
                             Add to cart
                         </button>
                     </div>

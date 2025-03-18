@@ -45,7 +45,7 @@
       </div>
       <div class="cart" id="cartIcon" onclick="toggleCart()">
         <img src="utilities/icons/cart.png" alt="shopping cart">
-        <span class="cartItems">0</span>
+        <span class="cartItems" id="cart-count">0</span>
       </div>
     </div>
     <nav>
@@ -65,11 +65,21 @@
     <div class="cart-container" id="cart">
       <div class="cart-header">
         <h2>Shopping Cart</h2>
-        <i class="fa-solid fa-circle-xmark" onclick="removeRemoveList()"></i>
+        <i class="fa-solid fa-circle-xmark" onclick="removeRemoveList()" title="Close"></i>
       </div>
-      <div id="cart-items"></div>
-      <h3>Total: $<span id="total-price">0.00</span></h3>
-      <button class="checkout-btn" onclick="checkout()">Checkout</button>
+
+      <div id="cart-items">
+        <div class="emptyCart">
+          <h3>Empty Cart</h3>
+          <i class="fa-solid fa-box-open"></i>
+          <p>Select your favourite furnitures to see them here</p>
+        </div>
+      </div>
+
+      <div class="totatCheckout">
+        <h4>Total: $<span id="total-price">0.00</span></h4>
+        <button class="checkout-btn" onclick="checkout()">Checkout</button>
+      </div>
     </div>
   </header>
 

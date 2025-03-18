@@ -41,17 +41,21 @@
   font-weight: bold;
   letter-spacing: 3px;
 }
-.price button {
-  background-color: #222299;
+
+.addMore {
+  display: flex;
+  gap: 10px;
+}
+.addMore button {
+  background-color: #8a8a8d;
   color: #dad7d7;
-  padding: 0px 15px 3px;
+  padding: 0px 10px 1px;
   border-radius: 3px;
   font-size: 1.1em;
   border: none;
 }
-.addMore {
-  display: flex;
-  gap: 10px;
+.addMore button:hover {
+  background-color: #22702e;
 }
 .btnSales {
   display: flex;
@@ -75,7 +79,9 @@
 }
 .reachUsBtn {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
   background-color: #38a048;
 }
 .reachUsBtn img {
