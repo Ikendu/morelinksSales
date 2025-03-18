@@ -1,0 +1,15 @@
+https://undraw.co/illustrations
+
+https://heropatterns.com/
+
+https://www.shapedivider.app/
+
+https://app.haikei.app/
+
+
+1. the chart icon should open a side component that list the items for sale
+2. the should be a page for final checkout and payment
+3. there should be different section of the website for different categories
+4. the whatsapp links and other communication chanels should be easily seen
+5. contact us page 
+6. policy pages

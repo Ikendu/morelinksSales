@@ -20,8 +20,8 @@
                     </div>
 
                     <div class="actionbtn">
-                        <a href="#maincontent"><button>feel it</button></a>
-                        <a href="" class="chatus"><button></button></a>
+                        <a href="#maincontent"><button>Feel it</button></a>
+                        <a href="" class="chatus"><button>Chat us</button></a>
                     </div>
                 </div>
                 <div class="landpic">

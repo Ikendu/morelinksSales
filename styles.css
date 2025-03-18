@@ -91,6 +91,7 @@ body {
   font-size: 1.5em;
   transition: all 0.5s;
   border: none;
+  cursor: pointer;
 }
 .actionbtn button:hover {
   background-color: #b5b6f5;

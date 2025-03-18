@@ -12,10 +12,9 @@
     <section class="category">
         <div class="headCategory">All Category</div>
         <ul class="navbar item">
-            <li><a href="index.html">Furniture</a></li>
+            <li><a href="livingroom.html">Living room set</a></li>
             <li><a href="about.html">Cusion</a></li>
             <li><a href="services.html">Tables</a></li>
-            <li><a href="products.html">Living room</a></li>
             <li><a href="contact.html">Dining table</a></li>
             <li><a href="news.html">Bedroom</a></li>
             <li><a href="news.html">Office</a></li>
@@ -24,7 +23,7 @@
             <li><a href="news.html">Bathroom</a></li>
             <li><a href="news.html">Kids conner</a></li>
             <li><a href="news.html">Lighting</a></li>
-            <li><a href="news.html">Decor</a></li>
+            <li><a href="news.html">Decorations</a></li>
 
         </ul>
     </section>
