@@ -142,3 +142,35 @@ nav ul li a {
 .custom-shape-divider-bottom-1741867119 .shape-fill {
   fill: #d4d5d6;
 }
+
+/* Cart Section */
+.cart-container {
+  position: fixed;
+  top: 80px;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease-in-out;
+  padding: 20px;
+  overflow-y: auto;
+}
+.cart-container.active {
+  right: 0;
+}
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.cart-header i {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #606063;
+}
+.cart-header i:hover {
+  color: #c5069c;
+}

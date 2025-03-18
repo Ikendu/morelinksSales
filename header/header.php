@@ -43,7 +43,7 @@
           </li>
         </ul>
       </div>
-      <div class="cart">
+      <div class="cart" id="cartIcon" onclick="toggleCart()">
         <img src="utilities/icons/cart.png" alt="shopping cart">
         <span class="cartItems">0</span>
       </div>
@@ -62,10 +62,18 @@
         <li><a href="news.html">Decor</a></li>
       </ul>
     </nav>
+    <div class="cart-container" id="cart">
+      <div class="cart-header">
+        <h2>Shopping Cart</h2>
+        <i class="fa-solid fa-circle-xmark" onclick="removeRemoveList()"></i>
+      </div>
+      <div id="cart-items"></div>
+      <h3>Total: $<span id="total-price">0.00</span></h3>
+      <button class="checkout-btn" onclick="checkout()">Checkout</button>
+    </div>
   </header>
-  <div>
 
-  </div>
+  <script src="header/headerScript.js"></script>
 </body>
 
 </html>
