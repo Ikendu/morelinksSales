@@ -22,7 +22,8 @@ function addToCart(name, price, index) {
 }
 
 function updateCart() {
-  let cartItemsContainer = document.getElementById('cart-items')
+    let cartItemsContainer = document.getElementById('cart-items')
+    let numberOfItem = document.getElementById
   cartItemsContainer.innerHTML = ''
   let total = 0
 
@@ -42,14 +43,16 @@ function updateCart() {
 
 function updateQuantity(index, change) {
   let item = cart.find((item) => item.index == index)
-  let arrayIndex = cart.indexOf(item)
+  if (item) {
+    let arrayIndex = cart.indexOf(item)
 
-  console.log(item, arrayIndex)
+    console.log(item, arrayIndex)
 
-  if (cart[arrayIndex].quantity + change > 0) {
-    cart[arrayIndex].quantity += change
-  } else {
-    cart.splice(arrayIndex, 1)
+    if (cart[arrayIndex].quantity + change > 0) {
+      cart[arrayIndex].quantity += change
+    } else {
+      cart.splice(arrayIndex, 1)
+    }
+    updateCart()
   }
-  updateCart()
 }

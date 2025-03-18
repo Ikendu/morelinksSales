@@ -2,3 +2,10 @@ I need a html, css and javascript code for adding to cart, when the cart icon is
 added items should come out from the right of the page with all the items added with the prices,
 plus and minus sign, total price and checkout button. when checkout button is clicked, it should
 take users to checkout page when payment can be done
+
+I need a html, css and javascript code for adding to cart, when the cart icon is clicked, a list of 
+added items should come out from the right of the page with all the items added with the prices, plus 
+and minus sign, total price and checkout button. when checkout button is clicked, it should take 
+users to checkout page when payment can be done.
+I also want each goods display to have individual increase and decrease button so that a user can 
+increase quantity while adding to cart

@@ -25,9 +25,9 @@
                     <div class="price">
                         <h5>₦ 200,000</h5>
                         <div class="addMore">
-                            <button onclick="addMore('one')">+</button>
+                            <button onclick="updateQuantity(1, 1)">+</button>
                             <span id="one">0</span>
-                            <button onclick="removeGoods('one')">-</button>
+                            <button onclick="updateQuantity(1, -1)">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
@@ -52,9 +52,9 @@
                     <div class="price">
                         <h5>₦ 400,000</h5>
                         <div class="addMore">
-                            <button onclick="addMore('two')">+</button>
+                            <button onclick="updateQuantity(2, 1)">+</button>
                             <span id='two'>0</span>
-                            <button onclick="removeGoods('two')">-</button>
+                            <button onclick="updateQuantity(2, -1)">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
@@ -79,9 +79,9 @@
                     <div class="price">
                         <h5>₦ 200,000</h5>
                         <div class="addMore">
-                            <button onclick="addMore('three')">+</button>
+                            <button onclick="updateQuantity(3, 1)">+</button>
                             <span id="three">0</span>
-                            <button onclick="removeGoods('three')">-</button>
+                            <button onclick="updateQuantity(3, -1)">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
@@ -106,9 +106,9 @@
                     <div class="price">
                         <h5>₦ 4,000,000</h5>
                         <div class="addMore">
-                            <button onclick="addMore('four')">+</button>
+                            <button onclick="updateQuantity(4, 1)">+</button>
                             <span id="four">0</span>
-                            <button onclick="removeGoods('four')">-</button>
+                            <button onclick="updateQuantity(4, -1)">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
@@ -134,9 +134,9 @@
                     <div class="price">
                         <h5>₦ 4,000,000</h5>
                         <div class="addMore">
-                            <button onclick="addMore('five')">+</button>
+                            <button onclick="updateQuantity(5, 1)">+</button>
                             <span id="five">0</span>
-                            <button onclick="removeGoods('five')">-</button>
+                            <button onclick="updateQuantity(5, -1)">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
@@ -161,7 +161,7 @@
                     <div class="price">
                         <h5>₦ 4,000,000</h5>
                         <div class="addMore">
-                            <button id="btnPlus">+</button>
+                            <button onclick="updateQuantity(6, 1)">+</button>
                             <span id="six">0</span>
                             <button onclick="updateQuantity(6, -1)">-</button>
                         </div>
