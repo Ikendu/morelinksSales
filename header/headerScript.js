@@ -52,7 +52,10 @@ function updateCart() {
     cartItemsContainer.innerHTML += `
         <div class="cart-item addMore">
             <img src='utilities/images/${item.image}' alt="${item.name}" />
-            <span>${item.name} - $${item.price.toFixed(2)}</span>            
+            <div class="cart-item-details">
+                <p>${item.name}</p> 
+                <p class="item-price">$${item.price.toFixed(2)}</p> 
+            </div>            
             <button onclick="updateProductQuantity('${item.name}', ${item.price}, 1)">+</button>
             <span>${item.quantity}</span>
             <button onclick="updateProductQuantity('${item.name}', ${item.price}, -1)">-</button>
