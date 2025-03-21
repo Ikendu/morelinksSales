@@ -3,11 +3,13 @@ let links = document.getElementsByClassName('link')
 // Open Cart Temp area
 function toggleCart() {
   document.getElementById('cart').classList.toggle('active')
+  document.getElementById('cart-overlay').classList.toggle('active')
 }
 
 // Close Cart Temp  area
 function removeRemoveList() {
   document.getElementById('cart').classList.remove('active')
+  document.getElementById('cart-overlay').classList.remove('active')
 }
 
 let cart = []
@@ -68,5 +70,5 @@ function updateCart() {
 
 function checkout() {
   localStorage.setItem('cart', JSON.stringify(cart))
-  window.location.href = 'checkout.html'
+  window.location.href = 'checkout/checkout.html'
 }

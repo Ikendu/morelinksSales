@@ -10,6 +10,7 @@
 
 <body>
   <header>
+    <div class="cart-overlay" id="cart-overlay" onclick="removeRemoveList()"></div>
     <div class="header">
       <img src="utilities/icons/logoImage.png" alt="logo" class="logo" />
       <div class="search">
