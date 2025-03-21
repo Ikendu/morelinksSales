@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.checkout {
+  background-color: rgb(204, 206, 207);
+}
+.checkoutlogo {
+  width: 100px;
+  border-radius: 20px;
+}
