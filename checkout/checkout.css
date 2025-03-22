@@ -42,7 +42,7 @@ body {
 }
 .userdetails {
   /* width: 100%; */
-  margin: 0 50px;
+  margin: 0 100px;
 }
 form input {
   padding: 7px;
@@ -99,6 +99,17 @@ form label {
   flex-direction: column;
   gap: 20px;
 }
+.paymentoption {
+  display: flex;
+  align-items: center;
+}
+.paymentoption input {
+  width: 50px;
+  padding: 0;
+}
+.paymentoption label {
+  margin: 3px;
+}
 /* .cardoptions img {
   width: 100px;
 } */
@@ -110,6 +121,9 @@ form label {
   border: 1px solid gray;
   padding: 8px;
   border-radius: 5px;
+}
+.cardoptions .flutterimg {
+  max-width: 200px;
 }
 /* .cardoptions .paystackimg {
   width: 20px;
@@ -123,6 +137,6 @@ form label {
   cursor: pointer;
 }
 .submit:hover {
-  color: wheat;
+  color: rgb(207, 206, 206);
   background-color: #3509f8;
 }
