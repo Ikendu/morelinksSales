@@ -11,18 +11,71 @@
       <div class="customerdetails">
         <div class="checkouthead">
           <img src="../utilities/icons/logoImage.png" alt="MoreLinks Logo" class="checkoutlogo" />
-          <div>
+          <div class="keysecure">
+            <img src="../utilities/icons/lock.png" alt="security" />
             <h3>Checkout</h3>
-            <img src="../utilities/icons/padlock.png" alt="security" />
           </div>
         </div>
-        <div>
+        <div class="userdetails">
+          <h3>Customer Details</h3>
           <form action="">
-            <input type="text" />
+            <div class="name set">
+              <div class="inputflex">
+                <label for="firstname">First Name: <span>required</span></label>
+                <input type="text" name="" id="firstname" />
+              </div>
+              <div class="inputflex">
+                <label for="lastname">Last Name: <span>required</span></label>
+                <input type="text" name="" id="lastname" />
+              </div>
+            </div>
+            <div class="inputflex set">
+              <label for="phone">Phone Number: <span>required</span></label>
+              <input type="text" name="phone" id="phone" />
+            </div>
+            <div class="inputflex set">
+              <label for="email">Email: <span>required</span></label>
+              <input type="text" name="email" id="email" />
+            </div>
+            <div class="inputflex set">
+              <label for="address">Addres: <span>required</span></label>
+              <input type="text" id="address" name="address" />
+            </div>
+            <div class="inputflex set">
+              <label for="town">City/Town: <span>required</span></label>
+              <input type="text" name="town" id="town" />
+            </div>
           </form>
         </div>
       </div>
-      <div class="payment">Payment</div>
+      <div class="payment">
+        <div class="checkoutbox">
+          <h4>Total amount to pay: ₦2,000,000</h4>
+          <div class="paymentoptions">
+            <h3>Payment Options</h3>
+            <div class="paymentflex">
+              <div class="paymentoption">
+                <input type="radio" name="payment" id="bank" />
+                <label for="bank">Bank Transfer</label>
+              </div>
+              <div class="paymentoption">
+                <input type="radio" name="payment" id="cash" />
+                <label for="cash">Cash</label>
+              </div>
+              <div class="paymentoption">
+                <input type="radio" name="payment" id="card" />
+                <label for="card">Debit/Credit</label>
+                <div class="cardoptions">
+                  <h5><img src="../utilities/icons/flutterwave.png" alt="" /></h5>
+                  <h5 class="paystack">
+                    <img src="../utilities/icons/paystack.png" alt="" class="paystackimg" />
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
   </body>
 </html>
