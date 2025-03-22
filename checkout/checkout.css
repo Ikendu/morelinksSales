@@ -114,3 +114,15 @@ form label {
 /* .cardoptions .paystackimg {
   width: 20px;
 } */
+
+.submit {
+  padding: 10px;
+  border: 2px solid rgb(140, 140, 247);
+  color: #3509f8;
+  font-weight: 600;
+  cursor: pointer;
+}
+.submit:hover {
+  color: wheat;
+  background-color: #3509f8;
+}
