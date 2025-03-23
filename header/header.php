@@ -69,7 +69,7 @@
         <i class="fa-solid fa-circle-xmark" onclick="removeRemoveList()" title="Close"></i>
       </div>
 
-      <div id="cart-items">
+      <div id="cart-items" class="cart-items">
         <div class="emptyCart">
           <h3>Empty Cart</h3>
           <i class="fa-solid fa-box-open"></i>

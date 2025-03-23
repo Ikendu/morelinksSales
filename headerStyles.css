@@ -173,7 +173,7 @@ nav ul li a:hover {
   background: #d3d4d6;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
   transition: right 0.3s ease-in-out;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 .cart-container.active {
   right: 0;
@@ -242,8 +242,9 @@ nav ul li a:hover {
 
 .totatCheckout {
   position: absolute;
-  width: 100%;
   bottom: 0;
+  width: 97%;
+  background-color: #cad7fa;
 }
 
 .checkout-btn {
@@ -252,10 +253,17 @@ nav ul li a:hover {
   background-color: #08a021;
   color: #dad7d7;
   border: none;
+  border-radius: 4px;
 }
 
 .checkout-btn:hover {
   background-color: #057a1b;
+}
+.cart-items {
+  height: 80%;
+  overflow: auto;
+  scrollbar-color: #3c1afc #f1f1f1; /* thumb color | track color */
+  scrollbar-width: thin;
 }
 
 .cart-item-details {

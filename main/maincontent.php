@@ -179,6 +179,60 @@
             </div>
             <!-- End of Display sixth -->
 
+            <!-- Display seventh -->
+            <div class="goodsdisplay">
+                <img src="utilities/images/10.jpg" alt="">
+                <div class="discription">
+                    <h4>Excel Space</h4>
+                    <p>Living room / cushion / decoration</p>
+                    <div class="price">
+                        <h5>₦ 1,000,000</h5>
+                        <div class="addMore">
+                            <button onclick="updateProductQuantity('Product7', 10, 1, '10.jpg')">+</button>
+                            <span id="quantityProduct7">0</span>
+                            <button onclick="updateProductQuantity('Product7', 10, -1, '10.jpg')">-</button>
+                        </div>
+                    </div>
+                    <div class="btnSales">
+                        <button class="reachUsBtn">
+                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                            <span>Chat us</span>
+                        </button>
+                        <button class="cartBtn" onclick="addToCart('Product7', 10, '10.jpg')">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Display sevent -->
+
+            <!-- Display eight -->
+            <div class="goodsdisplay">
+                <img src="utilities/images/12.jpg" alt="">
+                <div class="discription">
+                    <h4>Excel Space</h4>
+                    <p>Living room / cushion / decoration</p>
+                    <div class="price">
+                        <h5>₦ 5,000,000</h5>
+                        <div class="addMore">
+                            <button onclick="updateProductQuantity('Product8', 50, 1, '12.jpg')">+</button>
+                            <span id="quantityProduct8">0</span>
+                            <button onclick="updateProductQuantity('Product8', 50, -1, '12.jpg')">-</button>
+                        </div>
+                    </div>
+                    <div class="btnSales">
+                        <button class="reachUsBtn">
+                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                            <span>Chat us</span>
+                        </button>
+                        <button class="cartBtn" onclick="addToCart('Product8', 50, '12.jpg')">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Display eight -->
+
 
 
         </section>
