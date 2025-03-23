@@ -16,9 +16,23 @@ body {
   display: flex;
 }
 .itemsdetails {
+  margin: 40px 20px 50px 100px;
 }
 .itemsdetails h4 {
   color: rgb(6, 48, 124);
+}
+.itemsdetails .cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.itemsdetails .cart-item {
+  display: flex;
+  gap: 10px;
+}
+.itemsdetails .cart-item img {
+  width: 150px;
+  border-radius: 5px;
 }
 .customerdetails {
   padding: 30px;
