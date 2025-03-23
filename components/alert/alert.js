@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const openBtn = document.getElementById('openModal')
   const closeBtn = document.querySelector('.close')
 
-  openBtn.addEventListener('click', () => {
-    modal.style.display = 'block' // Show modal
-  })
+  //   openBtn.addEventListener('click', () => {
+  //     modal.style.display = 'block' // Show modal
+  //   })
 
   closeBtn.addEventListener('click', () => {
     modal.style.display = 'none' // Hide modal

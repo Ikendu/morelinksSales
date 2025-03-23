@@ -48,17 +48,15 @@ function processPayment() {
   //   let paymentMethod = document.getElementById('payment-method').value
 
   // Alert Model
+  const modal = document.getElementById('customModal')
   const openBtn = document.getElementById('openModal')
 
   if (!firstname || !lastname || !phone || !email || !address) {
-    openBtn.addEventListener('click', () => {
-      modal.style.display = 'block' // Show modal
-    })
+    modal.style.display = 'block' // Show modal
     return
   }
 
   document.addEventListener('DOMContentLoaded', () => {
-    const modal = document.getElementById('customModal')
     const closeBtn = document.querySelector('.close')
 
     closeBtn.addEventListener('click', () => {
