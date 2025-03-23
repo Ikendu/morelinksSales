@@ -9,6 +9,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../components/alert/alert.css" />
     <link rel="stylesheet" href="checkout.css" />
     <title>Document</title>
   </head>
@@ -163,10 +164,27 @@
               </div>
             </div>
 
-            <input type="button" value="Submit" class="submit" onclick="processPayment()" />
+            <input
+              type="button"
+              value="Submit"
+              class="submit"
+              onclick="processPayment()"
+              id="openModal"
+            />
           </div>
         </div>
       </form>
+    </div>
+    <div>
+      <div id="customModal" class="modal">
+        <div class="modal-content">
+          <div>
+            <h2>Custom Modal</h2>
+            <p>This is a simple custom modal box.</p>
+          </div>
+          <span class="close">&times;</span>
+        </div>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -174,6 +192,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- <script src="../header/headerScript.js"></script> -->
+    <script src="../components/alert/alert.js"></script>
     <script src="checkout.js"></script>
   </body>
 </html>

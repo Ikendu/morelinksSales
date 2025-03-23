@@ -47,10 +47,31 @@ function processPayment() {
   let town = document.getElementById('town').value
   //   let paymentMethod = document.getElementById('payment-method').value
 
+  // Alert Model
+  const openBtn = document.getElementById('openModal')
+
   if (!firstname || !lastname || !phone || !email || !address) {
-    alert('Please fill in all required details.')
+    openBtn.addEventListener('click', () => {
+      modal.style.display = 'block' // Show modal
+    })
     return
   }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('customModal')
+    const closeBtn = document.querySelector('.close')
+
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none' // Hide modal
+    })
+
+    // Close modal when clicking outside the content
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none'
+      }
+    })
+  })
 
   //   alert(`Processing payment via ${paymentMethod}...`)
   localStorage.removeItem('cart')
