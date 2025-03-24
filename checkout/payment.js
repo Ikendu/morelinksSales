@@ -6,7 +6,7 @@ let paymentDetails = JSON.parse(localStorage.getItem('paymentDetails')) || {}
 const tx_ref = 'TX-' + crypto.randomUUID()
 // console.log(tx_ref)
 
-function makePayment() {
+function payWithFlutterwave() {
   FlutterwaveCheckout({
     public_key: 'FLWPUBK-a09964ac1c0ca25120455572e7ab34a5-X',
     tx_ref: tx_ref,
@@ -37,7 +37,7 @@ function makePayment() {
   })
 }
 
-// PAYMENT SUCCESS PAGE
+// PAYMENT SUCCESS PAGE FOR FLUTTERWAVE
 
 // Get transaction_id from URL parameters
 const urlParams = new URLSearchParams(window.location.search)
@@ -72,12 +72,57 @@ if (!transaction_id) {
   document.getElementById('message').innerText = 'Your payment was not successful.'
 }
 
+// PAY WITH PAYSTACK
+function payWithPaystack() {
+  let handler = PaystackPop.setup({
+    key: 'pk_live_f7fa402646cf244bc85c0c0ef6214d6845eb9ce0',
+    email: paymentDetails.email,
+    amount: paymentDetails.totalPrice * 100, // Convert to kobo
+    name: paymentDetails.fullname,
+    currency: 'NGN',
+    callback: function (response) {
+      alert('Payment successful! Transaction ID: ' + response.reference)
+      saveOrder('paystack', response.reference)
+    },
+    onClose: function () {
+      alert('Transaction was not completed')
+    },
+  })
+  handler.openIframe()
+}
+
+function saveOrder(paymentMethod, transactionId) {
+  let orderData = {
+    user_id: 1, // Replace with the actual logged-in user ID
+    payment_method: paymentMethod,
+    transaction_id: transactionId,
+    cart: cart,
+  }
+
+  fetch('checkout.php', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(orderData),
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data.status === 'success') {
+        localStorage.removeItem('cart')
+        alert('Order saved successfully!')
+        window.location.href = 'thank_you.html'
+      } else {
+        alert('Order failed! ' + data.message)
+      }
+    })
+    .catch((error) => console.error('Error:', error))
+}
+
 // const response = await got.post('https://api.flutterwave.com/v3/payments', {
 //   headers: {
 //     Authorization: `Bearer ${process.env.FLW_SECRET_KEY}`,
 //   },
 //   json: {
-//     // Your payload
+// Your payload
 //   },
 // })
 
