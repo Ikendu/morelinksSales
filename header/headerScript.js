@@ -70,5 +70,9 @@ function updateCart() {
 
 function checkout() {
   localStorage.setItem('cart', JSON.stringify(cart))
-  window.location.href = 'checkout/checkout.html'
+  if (cart.length === 0) {
+    alert('Please add items to cart')
+  } else {
+    window.location.href = 'checkout/checkout.html'
+  }
 }

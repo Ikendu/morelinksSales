@@ -3,45 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="confrim.css" />
     <title>Document</title>
   </head>
   <body>
-    <div>
+    <div class="paymentpage">
       <header>
-        <h2>Payment confirmation</h2>
-        <p>
-          <span>Note!</span> Shipping or Transportation Fee is not included with the payment, it
-          will depend on your location.
-        </p>
-        <p>Shipp</p>
+        <img src="../utilities/icons/logoImage.png" alt="" class="logoimage" />
+        <div>
+          <h2>Payment confirmation</h2>
+          <p class="notice">
+            <span>Note!</span> Shipping or Transportation Fee of furniture is not included with the
+            payment, it will depend on your location. <br />You are also at liberty to come and see
+            or pick up your funiture from our location
+          </p>
+        </div>
       </header>
-      <div>
-        <section>
+      <div class="allpayment">
+        <section class="cardsection">
           <div>
-            <h3>Card Payment <span>recommended</span></h3>
+            <h3>Credit/Debit Card Payment <span>(recommended)</span></h3>
           </div>
-          <div>
-            <h4>Flutterwave</h4>
+          <div class="paymentoptions">
+            <div class="select" onclick="makePayment()">
+              <img src="../utilities/icons/flutterwave.png" alt="" />
+            </div>
+            <div class="paystack select">
+              <img src="../utilities/icons/paystack1.png" alt="" />
+              <h4>Paystack</h4>
+            </div>
           </div>
+        </section>
+        <section class="">
           <div>
-            <h4>PayStack</h4>
+            <h3>Mobile Bank Transfer</h3>
+            <p>Make trasfer to the following bank account details</p>
+            <div class="banks">
+              <div class="bankDetails">
+                <img src="../utilities/icons/firstbank.png" alt="First Bank" />
+                <div>
+                  <p>First Bank</p>
+                  <p>3091645703</p>
+                  <p>Aniede Chibundu David</p>
+                </div>
+              </div>
+              <div class="bankDetails">
+                <img src="../utilities/icons/uba.png" alt="UBA Bank" />
+                <div>
+                  <p>UBA</p>
+                  <p>2054419078</p>
+                  <p>Aniede Chibundu David</p>
+                </div>
+              </div>
+              <div class="bankDetails">
+                <img src="../utilities/icons/fidelitybank.png" alt="Fiderity bank" />
+                <div>
+                  <p>UBA</p>
+                  <p>6590327780</p>
+                  <p>Aniede Chibundu David</p>
+                </div>
+              </div>
+              <div class="bankDetails">
+                <img src="../utilities/icons/wemabank.png" alt="Wema Bank" />
+                <div>
+                  <p>UBA</p>
+                  <p>8543927306</p>
+                  <p>Aniede Chibundu David</p>
+                </div>
+              </div>
+            </div>
+
+            <p>Forward the payment details our email or Whatsapp for confirmation</p>
+            <div>
+              <p>Emain</p>
+              <p>Whatsapp</p>
+            </div>
           </div>
         </section>
         <section>
-          <div>Mobile Bank Transfer</div>
-        </section>
-        <section>
-          <div>Cash Transaction</div>
-          <p>All cash transactions will only be done at the bank premmises</p>
           <div>
-            <p>You can use any of the following banks</p>
-            <div>Firstbank {icon} 3091645703</div>
-            <div>UBA {icon} 2054419078</div>
-            <div>Fidelity {icon} 6590327780</div>
-            <div>Wema Bank {icon} 8543927306</div>
+            <h3>Cash Transaction</h3>
+            <p>
+              All cash transactions will only be done at the bank premises, using the any of the
+              account detail mentioned above
+            </p>
           </div>
         </section>
       </div>
     </div>
+    <script src="https://checkout.flutterwave.com/v3.js"></script>
+    <script src="payment.js"></script>
   </body>
 </html>

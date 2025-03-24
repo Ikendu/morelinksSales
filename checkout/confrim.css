@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #dde3e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* max-width: 700px; */
+}
+.paymentpage {
+  max-width: 700px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: start;
+  padding: 20px 0;
+  border-bottom: 2px dashed blue;
+}
+header h2 {
+  margin: -10px 0 10px 0;
+}
+header .notice span {
+  color: rgb(128, 23, 23);
+  font-weight: 700;
+}
+.logoimage {
+  width: 80px;
+}
+section {
+  border-bottom: 1px solid rgb(141, 141, 247);
+  padding: 20px 0;
+}
+.cardsection {
+}
+.cardsection span {
+  font-style: italic;
+  color: rgb(27, 68, 180);
+  font-size: 13px;
+}
+.paymentoptions {
+  display: flex;
+  justify-content: space-between;
+}
+.select {
+  background-color: #cdd3da;
+  padding: 4px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.select:hover {
+  background-color: rgb(124, 247, 165);
+}
+.paystack {
+  display: flex;
+  gap: 10px;
+  font-size: 30px;
+  align-items: center;
+}
+.paystack h4 {
+  margin: 0;
+}
+.paystack img {
+  width: 50px;
+}
+.banks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.banks img {
+  width: 50px;
+  margin-top: 6px;
+}
+.bankDetails {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+.bankDetails p {
+  margin: 0;
+}

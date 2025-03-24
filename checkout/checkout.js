@@ -1,8 +1,9 @@
 let cart = JSON.parse(localStorage.getItem('cart')) || []
 console.log('from storage', cart)
+let totalPrice = 0
 function updateCheckoutPage() {
   let cartItemsContainer = document.getElementById('cart-items')
-  let totalPrice = 0
+
   cartItemsContainer.innerHTML = ''
 
   cart.forEach((item, index) => {
@@ -72,8 +73,14 @@ function processPayment() {
   })
 
   //   alert(`Processing payment via ${paymentMethod}...`)
+  totalPrice = totalPrice.toFixed(2)
+  let fullname = `${firstname} ${lastname}`
+  let paymentDetails = { fullname, phone, email, address, town, totalPrice }
+  localStorage.setItem('paymentDetails', JSON.stringify(paymentDetails))
   localStorage.removeItem('cart')
-  window.location.href = 'confirmation.html'
+  if (totalPrice > 0) {
+    window.location.href = 'confirmation.html'
+  }
 }
 
 updateCheckoutPage()
