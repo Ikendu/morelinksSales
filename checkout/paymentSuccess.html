@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Status</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+      }
+      .success {
+        color: green;
+      }
+      .failed {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="status">Processing payment...</h1>
+    <p id="message">Please wait while we verify your transaction.</p>
+
+    <script>
+      // Get transaction_id from URL parameters
+      const urlParams = new URLSearchParams(window.location.search)
+      const transaction_id = urlParams.get('transaction_id')
+
+      if (!transaction_id) {
+        document.getElementById('status').innerText = 'Transaction Not Found!'
+        document.getElementById('message').classList.add('failed')
+        document.getElementById('message').innerText = 'Invalid transaction reference.'
+      } else {
+        // Call your backend to verify the transaction
+        fetch(`https://your-backend.com/verify-payment?transaction_id=${transaction_id}`)
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.status === 'success') {
+              document.getElementById('status').innerText = 'Payment Successful!'
+              document.getElementById('status').classList.add('success')
+              document.getElementById('message').innerText = `Transaction ID: ${transaction_id}`
+            } else {
+              document.getElementById('status').innerText = 'Payment Failed!'
+              document.getElementById('status').classList.add('failed')
+              document.getElementById('message').innerText = 'Your payment was not successful.'
+            }
+          })
+          .catch((error) => {
+            document.getElementById('status').innerText = 'Error!'
+            document.getElementById('status').classList.add('failed')
+            document.getElementById('message').innerText = 'Could not verify payment.'
+          })
+      }
+    </script>
+  </body>
+</html>
