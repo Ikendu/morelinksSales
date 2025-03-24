@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="confrim.css" />
     <title>Payment Status</title>
     <style>
       body {
@@ -10,48 +11,50 @@
         text-align: center;
         padding: 50px;
       }
-      .success {
-        color: green;
-      }
-      .failed {
-        color: red;
-      }
     </style>
   </head>
   <body>
-    <h1 id="status">Processing payment...</h1>
-    <p id="message">Please wait while we verify your transaction.</p>
+    <div class="paymentsuccess">
+      <img src="../utilities/icons/logoImage.png" alt="" class="logoimage" />
+      <h2 id="status">Thank you for choosing MoreLinks Concept</h2>
+      <h3>Thank you for choosing MoreLinks Concept</h3>
+      <!-- <p id="message">Please wait while we verify your transaction.</p> -->
+      <p id="lastMessage"></p>
 
-    <script>
-      // Get transaction_id from URL parameters
-      const urlParams = new URLSearchParams(window.location.search)
-      const transaction_id = urlParams.get('transaction_id')
+      <div class="payinfo" id="payinfo">Payment information</div>
+      <table class="table" id="table">
+        <tr>
+          <th>Payment ID</th>
+          <td id="payment-id"></td>
+        </tr>
+        <tr>
+          <th>Status</th>
+          <td id="payment-status"></td>
+        </tr>
+        <tr>
+          <th>Transaction ID</th>
+          <td id="transaction-id"></td>
+        </tr>
+        <tr>
+          <th>Amount</th>
+          <td>₦<span id="amount"></span></td>
+        </tr>
+        <tr>
+          <th>Customer Name</th>
+          <td id="customer-name"></td>
+        </tr>
+        <tr>
+          <th>Customer Email</th>
+          <td id="customer-phone"></td>
+        </tr>
+        <tr>
+          <th>Customer Email</th>
+          <td id="customer-email"></td>
+        </tr>
+      </table>
+    </div>
+    <button class="print" id="print" onclick="window.print()">Print</button>
 
-      if (!transaction_id) {
-        document.getElementById('status').innerText = 'Transaction Not Found!'
-        document.getElementById('message').classList.add('failed')
-        document.getElementById('message').innerText = 'Invalid transaction reference.'
-      } else {
-        // Call your backend to verify the transaction
-        fetch(`https://your-backend.com/verify-payment?transaction_id=${transaction_id}`)
-          .then((response) => response.json())
-          .then((data) => {
-            if (data.status === 'success') {
-              document.getElementById('status').innerText = 'Payment Successful!'
-              document.getElementById('status').classList.add('success')
-              document.getElementById('message').innerText = `Transaction ID: ${transaction_id}`
-            } else {
-              document.getElementById('status').innerText = 'Payment Failed!'
-              document.getElementById('status').classList.add('failed')
-              document.getElementById('message').innerText = 'Your payment was not successful.'
-            }
-          })
-          .catch((error) => {
-            document.getElementById('status').innerText = 'Error!'
-            document.getElementById('status').classList.add('failed')
-            document.getElementById('message').innerText = 'Could not verify payment.'
-          })
-      }
-    </script>
+    <script src="payment.js"></script>
   </body>
 </html>
