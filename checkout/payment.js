@@ -82,7 +82,7 @@ function payWithPaystack() {
     currency: 'NGN',
     callback: function (response) {
       alert('Payment successful! Transaction ID: ' + response.reference)
-      saveOrder('paystack', response.reference)
+      //   saveOrder('paystack', response.reference)
     },
     onClose: function () {
       alert('Transaction was not completed')
