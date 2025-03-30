@@ -76,6 +76,7 @@
 .cartBtn:hover,
 .reachUsBtn:hover {
   background-color: #22702e;
+  cursor: pointer;
 }
 .reachUsBtn {
   display: flex;
@@ -90,4 +91,10 @@
 .cartBtn {
   background-color: #222299;
   text-align: center;
+}
+
+.cartBtn:active,
+.reachUsBtn:active {
+  background-color: rgb(112, 185, 2);
+  /* background-color: #ebeef1; */
 }

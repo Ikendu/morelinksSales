@@ -39,6 +39,11 @@ function addToCart(name, price, image) {
   }
   document.getElementById(`quantity${name}`).innerText = item ? item.quantity : 1
   updateCart()
+
+  // Change the button color
+  let id = document.getElementById(name)
+  id.style.backgroundColor = '#ebeef1'
+  id.style.color = 'gray'
 }
 
 function updateCart() {

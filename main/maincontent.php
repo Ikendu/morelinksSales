@@ -35,7 +35,7 @@
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                             <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product1', 20, '2.jpg',)">
+                        <button class="cartBtn" id="Product1" onclick="addToCart('Product1', 20, '2.jpg',)">
                             Add to cart
                         </button>
                     </div>
@@ -62,7 +62,7 @@
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                             <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product2', 40, '15.jpg',)">
+                        <button class="cartBtn" id="Product2" onclick="addToCart('Product2', 40, '15.jpg',)">
                             Add to cart
                         </button>
                     </div>
@@ -89,7 +89,7 @@
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                             <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product3', 20, '11.jpg',)">
+                        <button class="cartBtn" id="Product3" onclick="addToCart('Product3', 20, '11.jpg',)">
                             Add to cart
                         </button>
                     </div>
@@ -116,7 +116,7 @@
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                             <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product4', 40, '3.jpg',)">
+                        <button class="cartBtn" id="Product4" onclick="addToCart('Product4', 40, '3.jpg',)">
                             Add to cart
                         </button>
                     </div>
@@ -144,7 +144,7 @@
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                             <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product5', 40, '8.jpg')">
+                        <button class="cartBtn" id="Product5" onclick="addToCart('Product5', 40, '8.jpg')">
                             Add to cart
                         </button>
                     </div>
@@ -159,7 +159,7 @@
                     <h4>Excel Space</h4>
                     <p>Living room / cushion / decoration</p>
                     <div class="price">
-                        <h5>₦ 4,000,000</h5>
+                        <h5>₦ 4,000,00000</h5>
                         <div class="addMore">
                             <button onclick="updateProductQuantity('Product6', 40, 1, '9.jpg')">+</button>
                             <span id="quantityProduct6">0</span>
@@ -171,7 +171,7 @@
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                             <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product6', 40, '9.jpg')">
+                        <button class="cartBtn" id="Product6" onclick="addToCart('Product6', 40, '9.jpg')">
                             Add to cart
                         </button>
                     </div>
@@ -198,7 +198,7 @@
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                             <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product7', 10, '10.jpg')">
+                        <button class="cartBtn" id="Product7" onclick="addToCart('Product7', 10, '10.jpg')">
                             Add to cart
                         </button>
                     </div>
@@ -225,7 +225,7 @@
                             <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                             <span>Chat us</span>
                         </button>
-                        <button class="cartBtn" onclick="addToCart('Product8', 50, '12.jpg')">
+                        <button class="cartBtn" id="Product8" onclick="addToCart('Product8', 50, '12.jpg')">
                             Add to cart
                         </button>
                     </div>
