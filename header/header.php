@@ -51,21 +51,6 @@
       </div>
 
     </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Furniture</a></li>
-        <li><a href="about.html">Cusion</a></li>
-        <li><a href="services.html">Tables</a></li>
-        <li><a href="news.html">Bedroom</a></li>
-        <li><a href="news.html">Office</a></li>
-        <li><a href="news.html">Outdoor</a></li>
-        <li><a href="news.html">Kitchen</a></li>
-        <li><a href="news.html">Bathroom</a></li>
-        <li><a href="news.html">Lighting</a></li>
-        <li><a href="news.html">Decor</a></li>
-      </ul>
-    </nav>
-
     <swiper-container slides-per-view="10">
       <swiper-slide><a href="index.html">Furniture</a></swiper-slide>
       <swiper-slide><a href="about.html">Cusion</a></swiper-slide>
@@ -73,6 +58,10 @@
       <swiper-slide><a href="news.html">Bedroom</a></swiper-slide>
       <swiper-slide><a href="news.html">Office</a></swiper-slide>
       <swiper-slide><a href="news.html">Outdoor</a></swiper-slide>
+      <swiper-slide><a href="news.html">Kitchen</a></swiper-slide>
+      <swiper-slide><a href="news.html">Bathroom</a></swiper-slide>
+      <swiper-slide><a href="news.html">Lighting</a></swiper-slide>
+      <swiper-slide><a href="news.html">Decor</a></swiper-slide>
       <swiper-slide><a href="news.html">Kitchen</a></swiper-slide>
       <swiper-slide><a href="news.html">Bathroom</a></swiper-slide>
       <swiper-slide><a href="news.html">Lighting</a></swiper-slide>
