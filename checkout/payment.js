@@ -91,6 +91,7 @@ function payWithPaystack() {
   handler.openIframe()
 }
 
+// Not being used for now
 function saveOrder(paymentMethod, transactionId) {
   let orderData = {
     user_id: 1, // Replace with the actual logged-in user ID
