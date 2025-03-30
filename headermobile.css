@@ -1,0 +1,22 @@
+/* Small mobile */
+@media (max-width: 320px) {
+  /* Styles for small mobile devices */
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  /* Styles for mobile devices */
+}
+
+/* Tablet (portrait) */
+@media (max-width: 768px) {
+  /* Styles for tablets in portrait mode */
+}
+
+/* Tablet (landscape) */
+@media (max-width: 900px) {
+  /* Styles for tablets in landscape mode */
+  nav ul {
+    padding: 0;
+  }
+}

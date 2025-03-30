@@ -1,5 +1,6 @@
 footer {
   width: 100%;
+  background: url('utilities/images/15.jpg') no-repeat center center/cover fixed;
   background-color: #090f30;
   color: rgb(168, 166, 166);
 }
@@ -7,8 +8,9 @@ footer {
 .footercontent {
   display: flex;
   justify-content: space-around;
-  padding: 50px 20px;
+  padding: 100px 20px;
   line-height: 35px;
+  background-color: #090f30e1;
 }
 .footercontent a:hover {
   color: aliceblue;
