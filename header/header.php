@@ -51,7 +51,7 @@
       </div>
 
     </div>
-    <swiper-container slides-per-view="10">
+    <!-- <swiper-container slides-per-view="10">
       <swiper-slide><a href="index.html">Furniture</a></swiper-slide>
       <swiper-slide><a href="about.html">Cusion</a></swiper-slide>
       <swiper-slide><a href="services.html">Tables</a></swiper-slide>
@@ -66,7 +66,7 @@
       <swiper-slide><a href="news.html">Bathroom</a></swiper-slide>
       <swiper-slide><a href="news.html">Lighting</a></swiper-slide>
       <swiper-slide><a href="news.html">Decor</a></swiper-slide>
-    </swiper-container>
+    </swiper-container> -->
     <div class="cart-container" id="cart">
       <div class="cart-header">
         <h2>Shopping Cart</h2>

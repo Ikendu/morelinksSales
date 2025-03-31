@@ -18,3 +18,8 @@
     width: 25%;
   }
 }
+@media (max-width: 600px) {
+  .category {
+    display: none;
+  }
+}
