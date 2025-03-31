@@ -5,6 +5,7 @@ header {
   width: 100%;
 }
 .header {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -49,8 +50,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.searchIcon {
 }
 .header ul {
   display: flex;

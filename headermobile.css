@@ -32,18 +32,7 @@
     font-size: 0.8em;
   }
 
-  .search input {
-    width: 0;
-    padding: 0;
-    visibility: hidden;
-    opacity: 0;
-  }
-  .search.active input {
-    width: 150px;
-    padding: 10px;
-    visibility: visible;
-    opacity: 1;
-  }
+  
 }
 
 /* Tablet (landscape) */

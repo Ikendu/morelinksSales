@@ -81,3 +81,46 @@ function checkout() {
     window.location.href = 'checkout/checkout.html'
   }
 }
+
+// Text this on mobile device after hosting
+// For the search input and icon
+document.addEventListener('DOMContentLoaded', function () {
+  const searchContainer = document.querySelector('.search')
+  const searchIcon = document.querySelector('.search span')
+  const searchInput = document.querySelector('.search input')
+
+  function isMobile() {
+    return window.innerWidth <= 768 // Detect mobile devices
+  }
+
+  searchIcon.addEventListener('click', function () {
+    if (isMobile()) {
+      searchContainer.classList.toggle('active')
+
+      if (searchContainer.classList.contains('active')) {
+        searchInput.focus()
+      }
+    }
+  })
+
+  // Close search input when clicking outside (on mobile)
+  document.addEventListener('click', function (event) {
+    if (isMobile() && !searchContainer.contains(event.target)) {
+      searchContainer.classList.remove('active')
+    }
+  })
+
+  // Ensure input is always visible on desktop after resizing
+  window.addEventListener('resize', function () {
+    if (!isMobile()) {
+      searchContainer.classList.add('active')
+    } else {
+      searchContainer.classList.remove('active')
+    }
+  })
+
+  // Ensure correct state on page load
+  if (!isMobile()) {
+    searchContainer.classList.add('active')
+  }
+})
