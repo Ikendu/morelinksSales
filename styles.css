@@ -75,7 +75,6 @@ body {
 }
 
 .actionbtn {
-  padding: 30px;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -84,7 +83,6 @@ body {
 }
 .actionbtn button {
   padding: 10px 40px;
-  color: black;
   background-color: #3939c0;
   color: white;
   border-radius: 50px;
@@ -130,38 +128,38 @@ body {
 
 /* Mobile responsiveness */
 
+/* @media (max-width: 780px) {
+} */
+
 @media (max-width: 780px) {
   .mainpage {
     width: 100%;
-    left: 0;
+    width: 75%;
+  }
+  .landing {
+    padding: 30px;
+    width: 90%;
   }
   .landing h1 {
-    font-size: 2em;
+    font-size: 3em;
+    padding: 10px 0;
+  }
+  .landing h4 {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .actionbtn {
+    align-items: center;
+    justify-content: left;
     padding: 20px 0;
   }
-  /* .landingcontent {
+  .actionbtn button {
+    font-size: 1em;
+  }
+  .landingcontent {
     flex-direction: column;
     align-items: center;
-  } */
-  .landpic {
-    width: 100%;
-    height: auto;
   }
-  .landingcontent img {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-width: 780px) {
- 
-  .landing h1 {
-    font-size: 2em;
-    padding: 20px 0;
-  }
-  /* .landingcontent {
-    flex-direction: column;
-    align-items: center;
-  } */
   .landpic {
     width: 100%;
     height: auto;
