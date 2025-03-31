@@ -1,20 +1,8 @@
-/* Small mobile */
-@media (max-width: 320px) {
-  /* Styles for small mobile devices */
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-  /* Styles for mobile devices */
-  .headerlinks {
-    display: none;
-  }
-  .swiper-container .swiper-slide {
-    padding: 6px;
-  }
-
-  .swiper-container .swiper-slide a {
-    font-size: 0.75em;
+/* Tablet (landscape) */
+@media (max-width: 900px) {
+  /* Styles for tablets in landscape mode */
+  nav ul {
+    padding: 0;
   }
 }
 
@@ -40,17 +28,33 @@
 
   /* When active, show input on mobile */
   .search.active input {
-    width: 150px;
-    padding: 10px;
+    position: relative;
+    width: 170px;
+    padding: 20px;
     visibility: visible;
     opacity: 1;
   }
+  .search span {
+    position: relative;
+  }
 }
 
-/* Tablet (landscape) */
-@media (max-width: 900px) {
-  /* Styles for tablets in landscape mode */
-  nav ul {
-    padding: 0;
+/* Mobile */
+@media (max-width: 480px) {
+  /* Styles for mobile devices */
+  .headerlinks {
+    display: none;
   }
+  .swiper-container .swiper-slide {
+    padding: 6px;
+  }
+
+  .swiper-container .swiper-slide a {
+    font-size: 0.75em;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 320px) {
+  /* Styles for small mobile devices */
 }

@@ -3,7 +3,16 @@
   background-color: #d4d5d6;
   padding: 50px 30px;
 }
-.contentHead {
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divide {
+  width: 50%;
+  height: 1px;
+  background-color: #2b2a2a;
+  margin: 40px 0;
 }
 .goods {
   display: flex;
@@ -97,4 +106,44 @@
 .reachUsBtn:active {
   background-color: rgb(112, 185, 2);
   /* background-color: #ebeef1; */
+}
+
+@media (max-width: 858px) {
+  .maincontent {
+    padding: 50px 20px;
+  }
+  .goodsdisplay {
+    width: 100%;
+    padding: 15px 30px;
+  }
+  .goodsdisplay img {
+    max-height: 450px;
+  }
+  .contentHead h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 500px) {
+  .goodsdisplay {
+    padding: 15px 0px;
+  }
+  .goodsdisplay img {
+    max-height: 450px;
+  }
+  .contentHead h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .cartBtn,
+  .reachUsBtn {
+    width: max(40%, 20px);
+    border-radius: 10px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 2px;
+    color: #dad9d8;
+    border: none;
+  }
 }

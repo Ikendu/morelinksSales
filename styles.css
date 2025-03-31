@@ -63,7 +63,7 @@ body {
   font-family: Verdana;
   color: #0f0f0f;
   /* text-shadow: 4px 4px 5px #f1eeee; */
-  font-weight: 900;
+  font-weight: 500;
 }
 .caption-text {
   color: #080808 !important;
@@ -77,19 +77,20 @@ body {
 .actionbtn {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   padding: 20px;
 }
 .actionbtn button {
-  padding: 10px 40px;
+  padding: 5px 40px;
   background-color: #3939c0;
   color: white;
   border-radius: 50px;
-  font-size: 1.5em;
+  font-size: 1.1em;
   transition: all 0.5s;
   border: none;
   cursor: pointer;
+  margin-bottom: 40px;
 }
 .actionbtn button:hover {
   background-color: #b5b6f5;
@@ -193,11 +194,5 @@ body {
 @media (max-width: 350px) {
   .landing {
     padding: 15px;
-  }
-  .landing h4 {
-    font-size: 0.8em;
-  }
-  .actionbtn button {
-    font-size: 0.7em;
   }
 }

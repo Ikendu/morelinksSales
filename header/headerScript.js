@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const searchContainer = document.querySelector('.search')
   const searchIcon = document.querySelector('.search span')
   const searchInput = document.querySelector('.search input')
+  const search = document.getElementById('search')
 
   function isMobile() {
     return window.innerWidth <= 768 // Detect mobile devices
@@ -96,6 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
   searchIcon.addEventListener('click', function () {
     if (isMobile()) {
       searchContainer.classList.toggle('active')
+      search.style.position = 'absolute'
 
       if (searchContainer.classList.contains('active')) {
         searchInput.focus()

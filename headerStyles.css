@@ -56,7 +56,6 @@ header {
   align-items: center;
   text-decoration: none;
   list-style: none;
-  margin: auto;
 }
 .header ul li {
   cursor: pointer;
@@ -64,7 +63,7 @@ header {
   border-radius: 10px;
   display: flex;
   align-items: center;
-  padding: 10px 15px;
+  padding: 10px 10px;
   /* border-right: 1px solid; */
 }
 .header ul li a {

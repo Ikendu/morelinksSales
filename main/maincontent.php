@@ -15,6 +15,10 @@
             <p>New products, more collections.</p>
             <p>Visit different category to navigate your choice destination</p>
         </div>
+        <div class="divider">
+            <div class="divide"></div>
+        </div>
+
         <section class="goods">
             <!-- Display one -->
             <div class="goodsdisplay">

@@ -16,7 +16,7 @@
       <img src="utilities/icons/logoImage.png" alt="logo" class="logo" />
       <div class="search">
         <input type="search" placeholder="Search MoreLinks">
-        <span><img src="utilities/icons/search.png" alt="Search MoreLinks" class="searchIcon"></span>
+        <span id="search"><img src="utilities/icons/search.png" alt="Search MoreLinks" class="searchIcon"></span>
       </div>
       <div class="cart" id="cartIcon" onclick="toggleCart()">
         <img src="utilities/icons/cart.png" alt="shopping cart">
@@ -51,7 +51,7 @@
       </div>
 
     </div>
-    <!-- <swiper-container slides-per-view="10">
+    <swiper-container slides-per-view="4" breakpoints='{"460": {"slidesPerView": 6},  "600": {"slidesPerView": 8}, "1024": {"slidesPerView": 10} }' , class="swiper-container">
       <swiper-slide><a href="index.html">Furniture</a></swiper-slide>
       <swiper-slide><a href="about.html">Cusion</a></swiper-slide>
       <swiper-slide><a href="services.html">Tables</a></swiper-slide>
@@ -66,7 +66,7 @@
       <swiper-slide><a href="news.html">Bathroom</a></swiper-slide>
       <swiper-slide><a href="news.html">Lighting</a></swiper-slide>
       <swiper-slide><a href="news.html">Decor</a></swiper-slide>
-    </swiper-container> -->
+    </swiper-container>
     <div class="cart-container" id="cart">
       <div class="cart-header">
         <h2>Shopping Cart</h2>
