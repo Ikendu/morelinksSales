@@ -31,8 +31,20 @@
   .swiper-container .swiper-slide a {
     font-size: 0.8em;
   }
+  .search input {
+    width: 0;
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
+  }
 
-  
+  /* When active, show input on mobile */
+  .search.active input {
+    width: 150px;
+    padding: 10px;
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 /* Tablet (landscape) */
@@ -42,3 +54,4 @@
     padding: 0;
   }
 }
+
