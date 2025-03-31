@@ -6,11 +6,44 @@
 /* Mobile */
 @media (max-width: 480px) {
   /* Styles for mobile devices */
+  .headerlinks {
+    display: none;
+  }
+  .swiper-container .swiper-slide {
+    padding: 6px;
+  }
+
+  .swiper-container .swiper-slide a {
+    font-size: 0.75em;
+  }
 }
 
 /* Tablet (portrait) */
 @media (max-width: 768px) {
   /* Styles for tablets in portrait mode */
+  .swiper-container .swiper-slide {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-container .swiper-slide a {
+    font-size: 0.8em;
+  }
+
+  .search input {
+    width: 0;
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .search.active input {
+    width: 150px;
+    padding: 10px;
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
 /* Tablet (landscape) */
