@@ -49,9 +49,10 @@
           </li>
         </ul>
       </div>
+      <div class="menu-toggle" id="navbar"><img src="utilities/icons/menus.png" alt=""></div>
 
     </div>
-    <swiper-container slides-per-view="4" breakpoints='{"460": {"slidesPerView": 6},  "600": {"slidesPerView": 8}, "1024": {"slidesPerView": 10} }' , class="swiper-container">
+    <swiper-container slides-per-view="4" breakpoints='{"460": {"slidesPerView": 6},  "600": {"slidesPerView": 8}, "1024": {"slidesPerView": 10} }' navigation="true" class="swiper-container">
       <swiper-slide><a href="index.html">Furniture</a></swiper-slide>
       <swiper-slide><a href="about.html">Cusion</a></swiper-slide>
       <swiper-slide><a href="services.html">Tables</a></swiper-slide>
