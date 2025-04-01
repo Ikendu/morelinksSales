@@ -49,7 +49,15 @@
           </li>
         </ul>
       </div>
-      <div class="menu-toggle" id="navbar"><img src="utilities/icons/menus.png" alt=""></div>
+      <div class="menu-toggle"><img src="utilities/icons/menus.png" alt=""></div>
+
+      <!-- Navbar for Mobile view -->
+      <div class="mobilenav" id="mobilenav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
 
     </div>
     <swiper-container slides-per-view="4" breakpoints='{"460": {"slidesPerView": 6},  "600": {"slidesPerView": 8}, "1024": {"slidesPerView": 10} }' navigation="true" class="swiper-container">
