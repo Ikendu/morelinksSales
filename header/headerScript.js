@@ -126,3 +126,28 @@ document.addEventListener('DOMContentLoaded', function () {
     searchContainer.classList.add('active')
   }
 })
+
+// For Mobile Navbar Implementation
+const menuToggle = document.querySelector('.menu-toggle')
+const navbar = document.getElementById('mobilenav')
+const overlay = document.getElementById('overlay')
+
+// Function to toggle navbar
+menuToggle.addEventListener('click', () => {
+  navbar.classList.toggle('open')
+  overlay.classList.toggle('active')
+})
+
+// Close navbar when clicking outside
+overlay.addEventListener('click', () => {
+  navbar.classList.remove('open')
+  overlay.classList.remove('active')
+})
+
+// Close navbar if any link is clicked (optional)
+document.querySelectorAll('.mobilenav a').forEach((link) => {
+  link.addEventListener('click', () => {
+    navbar.classList.remove('open')
+    overlay.classList.remove('active')
+  })
+})

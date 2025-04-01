@@ -30,11 +30,6 @@
               Contact Us
             </a>
           </li>
-          <!-- <li>
-            <a href="register.html">
-              <img src="utilities/icons/handshake.png" alt="">
-              Sale Online</a>
-          </li> -->
           <li>
             <a href="signin.html">
               <img src="utilities/icons/user.png" alt="">
@@ -53,11 +48,37 @@
 
       <!-- Navbar for Mobile view -->
       <div class="mobilenav" id="mobilenav">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="signin.html">
+          <!-- <img src="utilities/icons/user.png" alt=""> -->
+          <i class="fa-regular fa-user"></i>
+          Register
+        </a>
+        <a href="contact.html">
+          <!-- <img src="utilities/icons/contact.png" alt="Contact us"> -->
+          <i class="fa-solid fa-phone-volume"></i>
+          Contact Us
+        </a>
+
+        <a href="support.html">
+          <!-- <img src="utilities/icons/handshake.png" alt=""> -->
+          <i class="fa-regular fa-handshake"></i>
+          <span>Ask me</span>
+        </a>
+        <a href="#"><i class="fa-solid fa-business-time"></i>
+          <span>Services</span>
+        </a>
+        <div class="divider">
+          <div class="divide"></div>
+        </div>
+        <a href="news.html">Office</a>
+        <a href="news.thml">Kitchen</a>
+        <a href="news.thml">Bedroom</a>
+        <a href="news.thml">Kid Conner</a>
+        <a href="news.thml">Living Room</a>
+
       </div>
+
+      <div class="overlay" id="overlay"></div>
 
     </div>
     <swiper-container slides-per-view="4" breakpoints='{"460": {"slidesPerView": 6},  "600": {"slidesPerView": 8}, "1024": {"slidesPerView": 10} }' navigation="true" class="swiper-container">
@@ -71,7 +92,7 @@
       <swiper-slide><a href="news.html">Bathroom</a></swiper-slide>
       <swiper-slide><a href="news.html">Lighting</a></swiper-slide>
       <swiper-slide><a href="news.html">Decor</a></swiper-slide>
-      <swiper-slide><a href="news.html">Kitchen</a></swiper-slide>
+      <swiper-slide><a href="news.thml">Kitchen</a></swiper-slide>
       <swiper-slide><a href="news.html">Bathroom</a></swiper-slide>
       <swiper-slide><a href="news.html">Lighting</a></swiper-slide>
       <swiper-slide><a href="news.html">Decor</a></swiper-slide>
