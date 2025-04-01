@@ -76,11 +76,12 @@
 .reachUsBtn {
   width: max(40%, 40px);
   border-radius: 10px;
-  padding: 10px 20px;
+  padding: 10px 15px !important;
   align-items: center;
   gap: 2px;
   color: #dad9d8;
   border: none;
+  font-size: 1em !important;
 }
 .cartBtn:hover,
 .reachUsBtn:hover {
@@ -90,12 +91,12 @@
 .reachUsBtn {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   justify-content: center;
   background-color: #38a048;
 }
 .reachUsBtn img {
-  max-width: 20px;
+  max-width: 15px;
 }
 .cartBtn {
   background-color: #222299;
@@ -140,10 +141,11 @@
   .reachUsBtn {
     width: max(40%, 20px);
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 5px 10px !important;
     align-items: center;
-    gap: 2px;
+    gap: 5px;
     color: #dad9d8;
     border: none;
+    font-size: 0.8em !important;
   }
 }

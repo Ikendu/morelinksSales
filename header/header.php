@@ -42,6 +42,13 @@
               <span>Ask me</span>
             </a>
           </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-business-time"></i>
+              <span>Services</span>
+            </a>
+          </li>
+
         </ul>
       </div>
       <div class="menu-toggle"><img src="utilities/icons/menus.png" alt=""></div>
@@ -50,13 +57,13 @@
       <div class="mobilenav" id="mobilenav">
         <a href="signin.html">
           <!-- <img src="utilities/icons/user.png" alt=""> -->
-          <i class="fa-regular fa-user"></i>
-          Register
+          <i class="fa-solid fa-phone-volume"></i>
+          Contact Us
         </a>
         <a href="contact.html">
           <!-- <img src="utilities/icons/contact.png" alt="Contact us"> -->
-          <i class="fa-solid fa-phone-volume"></i>
-          Contact Us
+          <i class="fa-regular fa-user"></i>
+          Partiner with us
         </a>
 
         <a href="support.html">
@@ -64,7 +71,8 @@
           <i class="fa-regular fa-handshake"></i>
           <span>Ask me</span>
         </a>
-        <a href="#"><i class="fa-solid fa-business-time"></i>
+        <a href="#">
+          <i class="fa-solid fa-business-time"></i>
           <span>Services</span>
         </a>
         <div class="divider">

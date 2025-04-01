@@ -82,7 +82,7 @@ header {
 }
 
 .header ul li a img {
-  border-radius: 10px;
+  width: 20px;
 }
 .cart-overlay {
   position: fixed;
