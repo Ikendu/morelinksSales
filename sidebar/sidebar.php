@@ -17,16 +17,16 @@
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="utilities/images/slid.jpg" class="d-block w-100 displayImage" alt="more links ">
+                        <a href=""><img src="utilities/images/slid.jpg" class="d-block w-100 displayImage" alt="more links "></a>
                     </div>
                     <div class="carousel-item " data-bs-interval="3000">
-                        <img src="utilities/images/slide12.png" class="d-block w-100 displayImage" alt="four slide">
+                        <a href=""><img src="utilities/images/slide12.png" class="d-block w-100 displayImage" alt="four slide"></a>
                     </div>
                     <div class="carousel-item " data-bs-interval="3000">
-                        <img src="utilities/images/slide11.png" class="d-block w-100 displayImage" alt="fifth slide">
+                        <a href=""><img src="utilities/images/slide11.png" class="d-block w-100 displayImage" alt="fifth slide"></a>
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="utilities/images/slide2.jpg" class="d-block w-100 displayImage" alt="sixth slide">
+                        <a href=""><img src="utilities/images/slide2.jpg" class="d-block w-100 displayImage" alt="sixth slide"></a>
                     </div>
                 </div>
         </section>

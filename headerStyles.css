@@ -45,7 +45,7 @@ header {
   top: 0px;
   padding: 8px 10px;
   border-radius: 20px;
-  background-color: #cad7fa;
+  /* background-color: #cad7fa; */
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@ header {
   padding: 10px;
   cursor: pointer;
   border-radius: 20px;
-  background-color: #cad7fa;
+  /* background-color: #cad7fa; */
   position: relative;
 }
 

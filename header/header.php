@@ -33,7 +33,7 @@
           <li>
             <a href="signin.html">
               <img src="utilities/icons/user.png" alt="">
-              Register
+              Partiner with us
             </a>
           </li>
           <li>

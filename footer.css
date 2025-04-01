@@ -4,6 +4,9 @@ footer {
   background-color: #090f30;
   color: rgb(168, 166, 166);
 }
+.upperfooter {
+  background-color: #090f30e1;
+}
 
 .footercontent {
   display: flex;
@@ -12,7 +15,6 @@ footer {
   width: 100%;
   padding: 100px 20px;
   line-height: 35px;
-  background-color: #090f30e1;
 }
 .footercontent a:hover {
   color: aliceblue;
@@ -44,6 +46,27 @@ li a {
   display: flex;
   gap: 20px;
   align-items: center;
+}
+.acceptcards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* justify-content: end; */
+}
+
+.acceptcards div {
+  align-self: last baseline;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.acceptcards .cards {
+  margin-right: 20px;
+}
+.acceptcards .cards img {
+  width: 30px;
+  border-radius: 5px;
+  object-fit: cover;
 }
 
 .footer {
