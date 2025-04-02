@@ -24,7 +24,7 @@
          <p>Feel free to reach out using any of the methods below—we're excited to hear from you!</p>
          <h4>Get in Touch</h4>
          <div class="contacts">
-           <div>
+           <div class="contact-titles">
              <p>Phone:</p>
              <p>Mobile:</p>
              <p>Email:</p>
@@ -34,10 +34,12 @@
              <p> 08070958827</p>
              <p>08061632276</p>
              <p>service@morelinks.com.ng</p>
-             <p>5 Aku Road, Beside Shanaham Hospital, Close to Trafic light Nsukka</p>
+             <p>5 Aku Road, <span>Beside Shanaham Hospital, Close to Trafic light,</span> Nsukka</p>
            </div>
-
          </div>
+       </div>
+       <div>
+         <p>You may want to checkout our <a href="">question and answer section</a> to see if your question has been answered there. Thank you</p>
        </div>
 
      </div>

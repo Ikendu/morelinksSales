@@ -39,9 +39,18 @@ body {
 .contactdetails h4 {
   font-size: 25px;
 }
+.contactdetails a {
+  color: #d0d1d3;
+}
 .contacts {
   display: flex;
   gap: 20px;
+}
+.contacts span {
+  color: #d0d1d3;
+}
+.contact-titles {
+  color: #d0d1d3;
 }
 
 h2 {
@@ -108,6 +117,22 @@ button:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .contactpage {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+
+  .container {
+    width: 90%;
+    padding: 30px;
+  }
+  .contactdetails {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
 /* Loading Spinner */
 /* .spinner {
     display: inline-block;
@@ -138,15 +163,3 @@ button:hover {
     opacity: 0;
   }
 } */
-
-@media (max-width: 768px) {
-  .contactpage {
-    flex-direction: column;
-    padding: 50px 0;
-  }
-
-  .container {
-    width: 90%;
-    padding: 30px;
-  }
-}
