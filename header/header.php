@@ -25,7 +25,7 @@
       <div class="headerlinks">
         <ul>
           <li>
-            <a href="contact.html">
+            <a href="contact-us.php">
               <img src="utilities/icons/contact.png" alt="Contact us">
               Contact Us
             </a>
