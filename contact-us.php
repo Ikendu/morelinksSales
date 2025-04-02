@@ -19,19 +19,32 @@
    <div class="contactpage">
      <div class="contactdetails">
        <h3>Contact Us</h3>
-       <p>We are here to help you achieve your aims</p>
-       <p>Feel free to reach out using any of the methods below—we're excited to hear from you!</p>
-       <h3>Get in Touch</h3>
        <div>
-         <p>Phone: 08070958827</p>
-         <p>Mobile: 08061632276</p>
-         <p>Location: services@moredeco.com</p>
+         <p>We are here to help you achieve your aims</p>
+         <p>Feel free to reach out using any of the methods below—we're excited to hear from you!</p>
+         <h4>Get in Touch</h4>
+         <div class="contacts">
+           <div>
+             <p>Phone:</p>
+             <p>Mobile:</p>
+             <p>Email:</p>
+             <p>Location:</p>
+           </div>
+           <div>
+             <p> 08070958827</p>
+             <p>08061632276</p>
+             <p>service@morelinks.com.ng</p>
+             <p>5 Aku Road, Beside Shanaham Hospital, Close to Trafic light Nsukka</p>
+           </div>
+
+         </div>
        </div>
+
      </div>
 
 
      <div class="container">
-       <h2 class="fade-in">Contact Us</h2>
+       <h2 class="fade-in">Reach out to us by filling this form</h2>
        <form id="contactForm" class="slide-in">
          <label for="name">Name:</label>
          <input type="text" id="name" name="name" required />

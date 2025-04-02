@@ -13,7 +13,10 @@
   <header>
     <div class="cart-overlay" id="cart-overlay" onclick="removeRemoveList()"></div>
     <div class="header">
-      <img src="utilities/icons/logoImage.png" alt="logo" class="logo" />
+      <a href="index.php">
+        <img src="utilities/icons/logoImage.png" alt="logo" class="logo" />
+      </a>
+
       <div class="search">
         <input type="search" placeholder="Search MoreLinks">
         <span id="search"><img src="utilities/icons/search.png" alt="Search MoreLinks" class="searchIcon"></span>
