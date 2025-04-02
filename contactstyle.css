@@ -120,16 +120,28 @@ button:hover {
 @media (max-width: 768px) {
   .contactpage {
     flex-direction: column;
-    padding: 50px 0;
+    padding: 100px 0;
   }
 
   .container {
-    width: 90%;
+    width: 100%;
     padding: 30px;
+  }
+  .container h2 {
+    font-size: 20px;
   }
   .contactdetails {
     width: 100%;
     padding: 20px;
+  }
+  .contactdetails h3 {
+    font-size: 30px;
+  }
+  .contactdetails h4 {
+    font-size: 20px;
+  }
+  .contactdetails p {
+    font-size: 13px;
   }
 }
 
