@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/5108a58a34.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="headerStyles.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="headermobile.css?v=<?php echo time(); ?>">

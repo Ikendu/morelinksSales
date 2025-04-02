@@ -18,6 +18,9 @@
 
    <div class="contactpage">
      <div class="contactdetails">
+       <div>
+         <i class="fa-solid fa-arrow-left" onclick="goBack()" class="gobackarrow"></i>
+       </div>
        <h3>Contact Us</h3>
        <div>
          <p>We are here to help you achieve your aims</p>
@@ -39,7 +42,7 @@
          </div>
        </div>
        <div>
-         <p>You may want to checkout our <a href="">question and answer section</a> to see if your question has been answered there. Thank you</p>
+         <p>You may want to checkout our <a href="ask-me.php">question and answer section</a> to see if your question has been answered there. Thank you</p>
        </div>
 
      </div>
