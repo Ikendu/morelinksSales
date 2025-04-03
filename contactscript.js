@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
       .then((response) => response.json())
       .then((data) => {
+        console.log(data)
         responseMessage.textContent = data.message
         responseMessage.style.color = data.success ? 'green' : 'red'
 
@@ -28,7 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       })
       .catch((error) => {
-        responseMessage.textContent = 'An error occurred. Please try again later.'
+        console.log(error)
+        responseMessage.textContent = error
         responseMessage.style.color = 'red'
       })
       .finally(() => {

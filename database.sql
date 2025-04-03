@@ -1,8 +1,8 @@
-CREATE DATABASE your_database;
+CREATE DATABASE furniture;
 
-USE your_database;
+USE furniture;
 
-CREATE TABLE contacts (
+CREATE TABLE messages (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,

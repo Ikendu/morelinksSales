@@ -1,11 +1,18 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 header('Content-Type: application/json');
+
+require 'vendor/autoload.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
 // Database connection
 $host = "localhost";
-$user = "your_db_user";
-$pass = "your_db_password";
-$dbname = "your_database";
+$user = "root";
+$pass = "";
+$dbname = "furniture";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
@@ -15,10 +22,22 @@ if ($conn->connect_error) {
 }
 
 // Get form data
-$name = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
+$name = $email = $phone = $message = "";
+
+// echo json_encode([
+//     "POST data" => $_POST,
+//     "Raw input" => file_get_contents("php://input")
+// ]);
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['name'] ?? "";
+    $email = $_POST['email'] ?? "";
+    $phone = $_POST['phone'] ?? "";
+    $message = $_POST['message'] ?? "";
+} else {
+    echo json_encode(["success" => false, "message" => "Invalid request method."]);
+    exit;
+}
 
 if (empty($name) || empty($email) || empty($phone) || empty($message)) {
     echo json_encode(["success" => false, "message" => "All fields are required."]);
@@ -26,25 +45,26 @@ if (empty($name) || empty($email) || empty($phone) || empty($message)) {
 }
 
 // Save to database
-$stmt = $conn->prepare("INSERT INTO contacts (name, email, phone, message) VALUES (?, ?, ?, ?)");
+$stmt = $conn->prepare("INSERT INTO messages (name, email, phone, message) VALUES (?, ?, ?, ?)");
 $stmt->bind_param("ssss", $name, $email, $phone, $message);
+// $stmt->execute();
 
 if ($stmt->execute()) {
     // Send email
-    require 'PHPMailer/PHPMailer.php';
-    require 'PHPMailer/SMTP.php';
-    require 'PHPMailer/Exception.php';
-
-    $mail = new PHPMailer\PHPMailer\PHPMailer();
+    $mail = new PHPMailer();
+    $mail = new PHPMailer(true);
+    $mail->SMTPDebug = 2;
+    $mail->Debugoutput = 'html';
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'ndubest56@gmail.com';
-    $mail->Password = 'your_app_password'; // Use an App Password
-    $mail->SMTPSecure = 'tls';
+    $mail->Password = 'nomo zmbx siysljin'; // Use an App Password
+    $mail->SMTPSecure = 'ssl';
     $mail->Port = 587;
 
-    $mail->setFrom($email, $name);
+    $mail->setFrom('ndubest56@gmail.com', 'Website Contact Form');
+    $mail->addReplyTo($email, $name); // Allow replies to user
     $mail->addAddress('ndubest56@gmail.com');
     $mail->Subject = 'New Contact Form Submission';
     $mail->Body = "Name: $name\nEmail: $email\nPhone: $phone\nMessage: $message";

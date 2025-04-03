@@ -19,7 +19,7 @@
    <div class="contactpage">
      <div class="contactdetails">
        <div>
-         <i class="fa-solid fa-arrow-left" onclick="goBack()" class="gobackarrow"></i>
+         <i class="fa-solid fa-arrow-left" onclick="goBack()"></i>
        </div>
        <h3>Contact Us</h3>
        <div>
@@ -49,8 +49,8 @@
 
 
      <div class="container">
-       <h2 class="fade-in">Reach out to us by filling this form</h2>
-       <form id="contactForm" class="slide-in">
+       <h2 class="fade-in">Reach out to us by filling thisform</h2>
+       <form id="contactForm" class="slide-in" method="POST">
          <label for="name">Name:</label>
          <input type="text" id="name" name="name" required />
 
@@ -64,6 +64,7 @@
          <textarea id="message" name="message" required></textarea>
 
          <button type="submit" class="btn-hover">Send Message</button>
+         <!-- <input type="submit" value="Submit"> -->
        </form>
        <p id="response" class="fade-in"></p>
      </div>
