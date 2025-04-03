@@ -36,18 +36,52 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'] ?? "";
 } else {
     echo json_encode(["success" => false, "message" => "Invalid request method."]);
-    exit;
+    // exit;
 }
 
 if (empty($name) || empty($email) || empty($phone) || empty($message)) {
     echo json_encode(["success" => false, "message" => "All fields are required."]);
-    exit;
+    // exit;
 }
 
 // Save to database
 $stmt = $conn->prepare("INSERT INTO messages (name, email, phone, message) VALUES (?, ?, ?, ?)");
 $stmt->bind_param("ssss", $name, $email, $phone, $message);
 // $stmt->execute();
+
+
+// $smtp_server = "smtp.gmail.com";
+// $smtp_port = 587;
+// $smtp_username = "ndubest56@gmail.com";
+// $smtp_password = "nomozmbxsiysljin"; // Use Google App Password
+
+// $to = "ndubest56@gmail.com";
+// $subject = "Test Email";
+// $message = "Hello, this is a test email.";
+
+// Create SMTP connection
+// $smtp = fsockopen($smtp_server, $smtp_port, $errno, $errstr, 10);
+// if (!$smtp) {
+//     die("SMTP connection failed: $errstr ($errno)");
+// }
+
+// // Authenticate
+// fputs($smtp, "EHLO $smtp_server\r\n");
+// fputs($smtp, "AUTH LOGIN\r\n");
+// fputs($smtp, base64_encode($smtp_username) . "\r\n");
+// fputs($smtp, base64_encode($smtp_password) . "\r\n");
+
+// // Send mail
+// fputs($smtp, "MAIL FROM: <$smtp_username>\r\n");
+// fputs($smtp, "RCPT TO: <$to>\r\n");
+// fputs($smtp, "DATA\r\n");
+// fputs($smtp, "Subject: $subject\r\n");
+// fputs($smtp, "$message\r\n.\r\n");
+// fputs($smtp, "QUIT\r\n");
+
+// fclose($smtp);
+// echo "Email sent!";
+
 
 if ($stmt->execute()) {
     // Send email
@@ -59,12 +93,12 @@ if ($stmt->execute()) {
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'ndubest56@gmail.com';
-    $mail->Password = 'nomo zmbx siysljin'; // Use an App Password
+    $mail->Password = 'nomozmbxsiysljin'; // Use an App Password
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
     $mail->setFrom('ndubest56@gmail.com', 'Website Contact Form');
-    $mail->addReplyTo($email, $name); // Allow replies to user
+    // $mail->addReplyTo($email, $name); // Allow replies to user
     $mail->addAddress('ndubest56@gmail.com');
     $mail->Subject = 'New Contact Form Submission';
     $mail->Body = "Name: $name\nEmail: $email\nPhone: $phone\nMessage: $message";
