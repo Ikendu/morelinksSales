@@ -60,7 +60,7 @@ if ($stmt->execute()) {
     $mail->SMTPAuth = true;
     $mail->Username = 'ndubest56@gmail.com';
     $mail->Password = 'nomo zmbx siysljin'; // Use an App Password
-    $mail->SMTPSecure = 'ssl';
+    $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
     $mail->setFrom('ndubest56@gmail.com', 'Website Contact Form');
