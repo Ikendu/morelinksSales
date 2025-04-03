@@ -6,7 +6,25 @@ document.addEventListener('DOMContentLoaded', function () {
   form.addEventListener('submit', function (event) {
     event.preventDefault()
 
-    const formData = new FormData(form)
+    const formData = new FormData(form)(
+      // Send to email
+      function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init({
+          publicKey: 'iPQWPyYdO6yD4VgQA',
+        })
+      }
+    )()
+
+    // these IDs from the previous steps
+    emailjs.sendForm('template_3ln81ag', 'contact_us', formData).then(
+      () => {
+        console.log('SUCCESS!')
+      },
+      (error) => {
+        console.log('FAILED...', error)
+      }
+    )
 
     // Add loading spinner
     submitButton.innerHTML = "<span class='spinner'></span> Sending..."
@@ -30,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
       })
       .catch((error) => {
         console.log(error)
-        responseMessage.textContent = error
+        responseMessage.textContent = 'Message not sent'
         responseMessage.style.color = 'red'
       })
       .finally(() => {
