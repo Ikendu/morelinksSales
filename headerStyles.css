@@ -163,6 +163,7 @@ nav ul li a:hover {
 
 /* Cart Section */
 .cart-container {
+  z-index: 100;
   position: fixed;
   top: 0px;
   right: -300px;
