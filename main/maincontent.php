@@ -36,8 +36,11 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Chat us</span>
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                                target="_blank">
+                                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                                <span>Chat us</span>
+                            </a>
                         </button>
                         <button class="cartBtn" id="Product1" onclick="addToCart('Product1', 20, '2.jpg',)">
                             Add to cart
@@ -63,8 +66,11 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Chat us</span>
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                                target="_blank">
+                                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                                <span>Chat us</span>
+                            </a>
                         </button>
                         <button class="cartBtn" id="Product2" onclick="addToCart('Product2', 40, '15.jpg',)">
                             Add to cart
@@ -90,8 +96,11 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Chat us</span>
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                                target="_blank">
+                                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                                <span>Chat us</span>
+                            </a>
                         </button>
                         <button class="cartBtn" id="Product3" onclick="addToCart('Product3', 20, '11.jpg',)">
                             Add to cart
@@ -117,8 +126,11 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Chat us</span>
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                                target="_blank">
+                                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                                <span>Chat us</span>
+                            </a>
                         </button>
                         <button class="cartBtn" id="Product4" onclick="addToCart('Product4', 40, '3.jpg',)">
                             Add to cart
@@ -145,8 +157,11 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Chat us</span>
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                                target="_blank">
+                                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                                <span>Chat us</span>
+                            </a>
                         </button>
                         <button class="cartBtn" id="Product5" onclick="addToCart('Product5', 40, '8.jpg')">
                             Add to cart
@@ -172,8 +187,11 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Chat us</span>
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                                target="_blank">
+                                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                                <span>Chat us</span>
+                            </a>
                         </button>
                         <button class="cartBtn" id="Product6" onclick="addToCart('Product6', 40, '9.jpg')">
                             Add to cart
@@ -199,8 +217,11 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Chat us</span>
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                                target="_blank">
+                                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                                <span>Chat us</span>
+                            </a>
                         </button>
                         <button class="cartBtn" id="Product7" onclick="addToCart('Product7', 10, '10.jpg')">
                             Add to cart
@@ -226,8 +247,11 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
-                            <span>Chat us</span>
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                                target="_blank">
+                                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
+                                <span>Chat us</span>
+                            </a>
                         </button>
                         <button class="cartBtn" id="Product8" onclick="addToCart('Product8', 50, '12.jpg')">
                             Add to cart
