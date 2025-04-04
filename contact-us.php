@@ -35,7 +35,7 @@
             </div>
             <div>
               <p> 08070958827</p>
-              <p>08061632276</p>
+              <p><a href="">08061632276 </a> </p>
               <p>service@morelinks.com.ng</p>
               <p>5 Aku Road, <span>Beside Shanaham Hospital, Close to Trafic light,</span> Nsukka</p>
             </div>
