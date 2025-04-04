@@ -55,6 +55,25 @@ body {
 .contact-titles {
   color: #d0d1d3;
 }
+.contact-titles p {
+  padding: 5px;
+}
+.allcontact p {
+  padding: 5px;
+}
+.contact-whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: -5px;
+  max-width: 127px;
+  border-radius: 5px;
+}
+.contact-whatsapp:hover {
+  background-color: #05af5a;
+  color: black;
+  text-decoration: none;
+}
 
 h2 {
   font-weight: 600;

@@ -65,13 +65,11 @@
           Contact Us
         </a>
         <a href="contact.html">
-          <!-- <img src="utilities/icons/contact.png" alt="Contact us"> -->
           <i class="fa-regular fa-user"></i>
           Partiner with us
         </a>
 
         <a href="support.html">
-          <!-- <img src="utilities/icons/handshake.png" alt=""> -->
           <i class="fa-regular fa-handshake"></i>
           <span>Ask me</span>
         </a>

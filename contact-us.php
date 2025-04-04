@@ -33,9 +33,10 @@
               <p>Email:</p>
               <p>Location:</p>
             </div>
-            <div>
+            <div class="allcontact">
               <p> 08070958827</p>
-              <p><a href="">08061632276 </a> </p>
+              <p><a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                  target="_blank" class="contact-whatsapp">08061632276 <img style="width: 18px;" src="./utilities/icons/whatsapp.png" alt=""></a> </p>
               <p>service@morelinks.com.ng</p>
               <p>5 Aku Road, <span>Beside Shanaham Hospital, Close to Trafic light,</span> Nsukka</p>
             </div>
@@ -44,7 +45,6 @@
         <div>
           <p>You may want to checkout our <a href="ask-me.php">question and answer section</a> to see if your question has been answered there. Thank you</p>
         </div>
-
       </div>
 
 
