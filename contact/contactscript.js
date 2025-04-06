@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     submitButton.disabled = true
 
     // Send data to MySQL using PHP
-    fetch('contact.php', {
+    fetch('./contact/contact.php', {
       method: 'POST',
       body: formData,
     })

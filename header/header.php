@@ -6,8 +6,8 @@
   <script src="https://kit.fontawesome.com/5108a58a34.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="headerStyles.css?v=<?php echo time(); ?>">
-  <link rel="stylesheet" href="headermobile.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="./header/headerStyles.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="./header/headermobile.css?v=<?php echo time(); ?>">
   <title>Document</title>
 </head>
 
@@ -36,7 +36,7 @@
             </a>
           </li>
           <li>
-            <a href="sellers/sellers.php">
+            <a href="sellers.php">
               <img src="utilities/icons/user.png" alt="">
               Sell with us
             </a>
