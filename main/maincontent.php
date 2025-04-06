@@ -36,7 +36,7 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                                 target="_blank">
                                 <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                                 <span>Chat us</span>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                                 target="_blank">
                                 <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                                 <span>Chat us</span>
@@ -96,7 +96,7 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                                 target="_blank">
                                 <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                                 <span>Chat us</span>
@@ -126,7 +126,7 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                                 target="_blank">
                                 <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                                 <span>Chat us</span>
@@ -157,7 +157,7 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                                 target="_blank">
                                 <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                                 <span>Chat us</span>
@@ -187,7 +187,7 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                                 target="_blank">
                                 <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                                 <span>Chat us</span>
@@ -217,7 +217,7 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                                 target="_blank">
                                 <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                                 <span>Chat us</span>
@@ -247,7 +247,7 @@
                     </div>
                     <div class="btnSales">
                         <button class="reachUsBtn">
-                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20website%20for%20my%20business.%20Please"
+                            <a href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                                 target="_blank">
                                 <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp">
                                 <span>Chat us</span>
