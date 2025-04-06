@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div class="askhead">
+  <div class="">
     <?php include "header/header.php" ?>
   </div>
   <div class="advert">
@@ -17,7 +17,7 @@
   </div>
   <div class="askmain">
     <div class="askcontainer">
-      <div class="askhead">
+      <div class="askheader">
         <h2>Frequently Ask Questions</h2>
         <p class="subtext">Checkout our list of Frequently asked questions and see if you get the anwser you are looking for</p>
       </div>

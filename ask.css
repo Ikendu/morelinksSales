@@ -11,15 +11,15 @@ body {
   padding-top: 150px;
   background: linear-gradient(135deg, #6a11cb, #2575fc);
 }
-.askhead {
+.askheader {
   color: #c7c9ca;
-  padding-bottom: 50px;
+  padding: 40px 0;
 }
-.askhead h2 {
+.askheader h2 {
   font-size: 50px;
   color: #fff;
 }
-.askhead .subtext {
+.askheader .subtext {
   max-width: 400px;
   margin: auto;
 }
@@ -38,7 +38,7 @@ body {
   justify-content: center;
   padding-bottom: 20px;
 }
-.askpage section h3 {
+.askheader section h3 {
   text-align: left;
 }
 #accordionExample {
@@ -50,7 +50,7 @@ section h3 {
 }
 
 @media (max-width: 800px) {
-  .askhead h2 {
+  .askheader h2 {
     font-size: 30px;
   }
   .advert {
@@ -60,12 +60,17 @@ section h3 {
     width: 100%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .askcontainer {
     padding-top: 100px;
   }
-  .askhead {
-    padding-top: 20px;
+  .askheader {
     padding-bottom: 20px;
+  }
+  #accordionExample {
+    max-width: 90%;
+  }
+  .askheader .subtext {
+    padding: 0 10px;
   }
 }
