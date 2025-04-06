@@ -4,9 +4,14 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
+}
+.askcontainer {
+  /* padding: 50px; */
+  padding-top: 150px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
 }
 .askhead {
-  text-align: center;
   color: #c7c9ca;
   padding-bottom: 50px;
 }
@@ -14,15 +19,27 @@ body {
   font-size: 50px;
   color: #fff;
 }
-.askpage {
-  position: relative;
+.askhead .subtext {
+  max-width: 400px;
+  margin: auto;
+}
+.askmain {
+  position: absolute;
   width: 84.1%;
   right: 0;
+  margin: auto;
+  text-align: center;
 }
-.askcontainer {
-  padding: 50px;
-  padding-top: 150px;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
+
+.askpage section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.askpage section h3 {
+  text-align: left;
 }
 #accordionExample {
   max-width: 70%;
@@ -30,4 +47,25 @@ body {
 section h3 {
   color: #9fa2f8;
   padding: 30px 0;
+}
+
+@media (max-width: 800px) {
+  .askhead h2 {
+    font-size: 30px;
+  }
+  .advert {
+    display: none;
+  }
+  .askmain {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .askcontainer {
+    padding-top: 100px;
+  }
+  .askhead {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
