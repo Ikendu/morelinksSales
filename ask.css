@@ -15,7 +15,7 @@ body {
   color: #fff;
 }
 .askpage {
-  position: absolute;
+  position: relative;
   width: 84.1%;
   right: 0;
 }
