@@ -36,9 +36,9 @@
             </a>
           </li>
           <li>
-            <a href="signin.html">
+            <a href="sellers/sellers.php">
               <img src="utilities/icons/user.png" alt="">
-              Partiner with us
+              Sell with us
             </a>
           </li>
           <li>
