@@ -1,26 +1,25 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .sellercontainer {
   width: 100%;
 }
 .sellerspage {
   position: absolute;
   width: 84.1%;
+  top: 50px;
   right: 0;
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   color: aliceblue;
 }
-.sellermain {
-  padding: 150px;
+.mainpage {
+  padding: 100px;
 }
 
 /* CP */
-body {
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
-  padding: 20px;
-}
-.container {
-  max-width: 500px;
-  background: #fff;
+
+.sellermain {
+  max-width: 700px;
   padding: 30px;
   margin: auto;
   border-radius: 10px;
@@ -39,14 +38,22 @@ button {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+.checker {
+  padding: 20px 0;
+}
+.checker input {
+  width: 20px;
+}
 textarea {
   resize: vertical;
+  height: 150px;
 }
 button {
   background-color: #007bff;
   color: white;
   border: none;
   font-size: 16px;
+  border-radius: 5px;
 }
 button:hover {
   background-color: #0056b3;

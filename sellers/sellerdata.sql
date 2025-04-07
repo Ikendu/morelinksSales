@@ -9,5 +9,6 @@ CREATE TABLE seller_interest (
     furniture_type VARCHAR(100),
     city VARCHAR(100),
     message TEXT,
+    consent BOOLEAN DEFAULT 0
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
