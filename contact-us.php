@@ -49,7 +49,7 @@
 
 
       <div class="container">
-        <h2 class="fade-in">Reach out to us by filling thisform</h2>
+        <h2 class="">Reach out to us by filling thisform</h2>
         <form id="contactForm" class="slide-in" method="POST">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required />
@@ -66,7 +66,7 @@
           <button type="submit" class="btn-hover">Send Message</button>
           <!-- <input type="submit" value="Submit"> -->
         </form>
-        <p id="response" class="fade-in"></p>
+        <p id="response" class=""></p>
       </div>
     </div>
     <?php include_once "footer/footer.html" ?>

@@ -30,13 +30,17 @@ body {
 }
 
 /* CP */
-
 .sellermain {
   max-width: 700px;
   padding: 30px;
   margin: auto;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sellermain form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 h2 {
   text-align: center;
@@ -74,6 +78,23 @@ button a {
 }
 button:hover {
   background-color: #0056b3;
+}
+
+.slide-in {
+  transform: translateY(30px);
+  opacity: 0;
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 800px) {

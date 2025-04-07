@@ -38,7 +38,7 @@
                         </div>
                     
 
-                    <form id="interestForm" method="POST" action="sellers/submit.php">
+                    <form id="interestForm" method="POST" class="slide-in" action="sellers/submit.php">
                         <input type="text" name="full_name" placeholder="Full Name" required />
                         <input type="email" name="email" placeholder="Email Address" required />
                         <input type="text" name="phone" placeholder="Phone Number" required />
