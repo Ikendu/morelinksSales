@@ -1,0 +1,12 @@
+.sellercontainer {
+  width: 100%;
+}
+.sellerspage {
+  position: absolute;
+  width: 84.1%;
+  right: 0;
+  background-color: blue;
+}
+.sellermain {
+  padding: 150px;
+}
