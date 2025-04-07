@@ -17,9 +17,22 @@
         </div>
         <div class="sellerspage">
             <div class="sellermain">
-                <h2>Become a Seller</h2>
-                <p class="subtext">Join us and start selling your products to a wider audience.</p>
-                <p class="subtext">Fill out the form below to get started.</p>
+                <div>
+                    <h2>Become a Seller</h2>
+                    <p class="subtext">Join us and start selling your products to a wider audience.</p>
+                    <p class="subtext">Fill out the form below to get started.</p>
+                </div>
+                <form id="interestForm" method="POST" action="submit.php">
+                    <input type="text" name="full_name" placeholder="Full Name" required />
+                    <input type="email" name="email" placeholder="Email Address" required />
+                    <input type="text" name="phone" placeholder="Phone Number" required />
+                    <input type="text" name="business_name" placeholder="Business Name (optional)" />
+                    <input type="text" name="furniture_type" placeholder="Furniture Type (e.g., Sofas, Beds)" />
+                    <input type="text" name="city" placeholder="City / Location" />
+                    <textarea name="message" placeholder="Your message (optional)"></textarea>
+                    <label><input type="checkbox" required /> I want to be contacted about selling my furniture.</label>
+                    <button type="submit">Submit Interest</button>
+                </form>
             </div>
             <?php include_once "footer/footer.html" ?>
         </div>
