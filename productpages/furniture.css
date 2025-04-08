@@ -1,0 +1,10 @@
+.furniture {
+  max-width: 85%;
+  margin: auto;
+}
+
+@media (max-width: 700px) {
+  .furniture {
+    max-width: 95%;
+  }
+}
