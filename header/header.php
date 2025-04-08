@@ -48,7 +48,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="services.php">
               <i class="fa-solid fa-business-time"></i>
               <span>Services</span>
             </a>
@@ -60,20 +60,20 @@
 
       <!-- Navbar for Mobile view -->
       <div class="mobilenav" id="mobilenav">
-        <a href="signin.html">
+        <a href="contact-us.php">
           <i class="fa-solid fa-phone-volume"></i>
           Contact Us
         </a>
-        <a href="contact.html">
+        <a href="sellers.php">
           <i class="fa-regular fa-user"></i>
-          Partiner with us
+          Sell with us
         </a>
 
-        <a href="support.html">
+        <a href="ask-me.php">
           <i class="fa-regular fa-handshake"></i>
           <span>Ask me</span>
         </a>
-        <a href="#">
+        <a href="services.php">
           <i class="fa-solid fa-business-time"></i>
           <span>Services</span>
         </a>

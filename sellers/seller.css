@@ -40,7 +40,7 @@ body {
 .sellermain form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 h2 {
   text-align: center;
@@ -111,6 +111,9 @@ button:hover {
   }
 }
 @media (max-width: 600px) {
+  .sellermain form {
+    gap: 10px;
+  }
   .mainpage {
     padding: 80px 30px;
   }
