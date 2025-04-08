@@ -43,11 +43,11 @@
       </div>
 
       <div class="service-card">
-        <div class="service-icon"><i class="fa-solid fa-desktop"></i></div>
-        <h3>Website Development</h3>
+        <div class="service-icon"><i class="fa-solid fa-headset"></i></div>
+        <h3>Friendly Support</h3>
         <p>
-          We design and build responsive websites tailored to your brand. Whether you need an online
-          store, a business page, or a portfolio — we’ve got the skills to bring your ideas to life.
+          Need assistance? Reach out anytime! We're available via phone, WhatsApp, or a quick visit
+          to our office at 5 Aku Road, Nsukka. We’re always happy to help.
         </p>
       </div>
 
@@ -61,11 +61,20 @@
       </div>
 
       <div class="service-card">
-        <div class="service-icon"><i class="fa-solid fa-headset"></i></div>
-        <h3>Friendly Support</h3>
+        <div class="service-icon"><i class="fa-solid fa-desktop"></i></div>
+        <h3>Website Development</h3>
         <p>
-          Need assistance? Reach out anytime! We're available via phone, WhatsApp, or a quick visit
-          to our office at 5 Aku Road, Nsukka. We’re always happy to help.
+          We design and build responsive websites tailored to your brand. Whether you need an online
+          store, a business page, or a portfolio — we’ve got the skills to bring your ideas to life.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class="fa-solid fa-holly-berry"></i></div>
+        <h3>Event Decoration</h3>
+        <p>
+          The last but not the list, We have a dedicated team ready to handle your event at anytime and anywhere.
+          You can checkout out our <a href="https://moredeco.com.ng">even decoration website </a>by following this <a href="">link</a> for more details
         </p>
       </div>
     </section>
