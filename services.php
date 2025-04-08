@@ -58,7 +58,7 @@
           Have something specific in mind or need to order in bulk? We provide personalized options
           and great discounts for schools, offices, and event organizers.
         </p>
-      </div>
+      </div>h
 
       <div class="service-card">
         <div class="service-icon"><i class="fa-solid fa-desktop"></i></div>
