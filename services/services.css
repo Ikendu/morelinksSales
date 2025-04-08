@@ -12,14 +12,16 @@ body {
   top: 120px;
 }
 .services-header {
-  padding: 20px;
+  padding: 40px;
   text-align: center;
   color: white;
+  max-width: 700px;
+  margin: auto;
 }
 
-h1 {
+h2 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 3rem;
   animation: fadeInDown 1s ease;
 }
 
@@ -29,10 +31,12 @@ h1 {
   justify-content: center;
   gap: 20px;
   padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .service-card {
-  background: white;
+  background: #bcbec0;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 320px;

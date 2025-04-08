@@ -12,7 +12,7 @@
   <?php include_once "header/header.php"; ?>
   <div class="service-container">
     <div class="services-header">
-      <h1>Our Services</h1>
+      <h2>Our Services</h2>
       <p style="margin-top: 10px">
         At Morelinks Concept, we're making shopping and digital solutions friendlier and easier for
         everyone in Nsukka and beyond!

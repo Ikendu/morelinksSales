@@ -4,18 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../main/content.css">
-  <link rel="stylesheet" href="furniture.css">
+  <link rel="stylesheet" href="main/content.css">
+  <link rel="stylesheet" href="productutilities/furniture.css">
   <title>Document</title>
 </head>
 
 <body>
-  <?php include $_SERVER['DOCUMENT_ROOT'] . "/morelinks/header/header.php" ?>
+  <?php include_once "header/header.php" ?>
   <div class="furniture">
     <section class="goods">
       <!-- Display one -->
       <div class="goodsdisplay">
-        <img src="../utilities/images/2.jpg" alt="" />
+        <img src="utilities/images/2.jpg" alt="" />
         <div class="discription">
           <h4>Durable Fit</h4>
           <p>Sit out space</p>
@@ -32,7 +32,7 @@
               <a
                 href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                 target="_blank">
-                <img src="../utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
+                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
                 <span>Chat us</span>
               </a>
             </button>
@@ -46,7 +46,7 @@
 
       <!-- Display second -->
       <div class="goodsdisplay">
-        <img src="../utilities/images/15.jpg" alt="" />
+        <img src="utilities/images/15.jpg" alt="" />
         <div class="discription">
           <h4>Excel Space</h4>
           <p>Living room / cushion / decoration</p>
@@ -63,7 +63,7 @@
               <a
                 href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                 target="_blank">
-                <img src="../utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
+                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
                 <span>Chat us</span>
               </a>
             </button>
@@ -77,7 +77,7 @@
 
       <!-- Display Third -->
       <div class="goodsdisplay">
-        <img src="../utilities/images/11.jpg" alt="" />
+        <img src="utilities/images/11.jpg" alt="" />
         <div class="discription">
           <h4>Durable Fit</h4>
           <p>Sit out space</p>
@@ -94,7 +94,7 @@
               <a
                 href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                 target="_blank">
-                <img src="../utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
+                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
                 <span>Chat us</span>
               </a>
             </button>
@@ -108,7 +108,7 @@
 
       <!-- Display fourth -->
       <div class="goodsdisplay">
-        <img src="../utilities/images/3.jpg" alt="" />
+        <img src="utilities/images/3.jpg" alt="" />
         <div class="discription">
           <h4>Excel Space</h4>
           <p>Living room / cushion / decoration</p>
@@ -125,7 +125,7 @@
               <a
                 href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                 target="_blank">
-                <img src="../utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
+                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
                 <span>Chat us</span>
               </a>
             </button>
@@ -139,7 +139,7 @@
 
       <!-- Display fifth -->
       <div class="goodsdisplay">
-        <img src="../utilities/images/8.jpg" alt="" />
+        <img src="utilities/images/8.jpg" alt="" />
         <div class="discription">
           <h4>Excel Space</h4>
           <p>Living room / cushion / decoration</p>
@@ -156,7 +156,7 @@
               <a
                 href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                 target="_blank">
-                <img src="../utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
+                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
                 <span>Chat us</span>
               </a>
             </button>
@@ -170,7 +170,7 @@
 
       <!-- Display sixth -->
       <div class="goodsdisplay">
-        <img src="../utilities/images/9.jpg" alt="" />
+        <img src="utilities/images/9.jpg" alt="" />
         <div class="discription">
           <h4>Excel Space</h4>
           <p>Living room / cushion / decoration</p>
@@ -187,7 +187,7 @@
               <a
                 href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                 target="_blank">
-                <img src="../utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
+                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
                 <span>Chat us</span>
               </a>
             </button>
@@ -201,7 +201,7 @@
 
       <!-- Display seventh -->
       <div class="goodsdisplay">
-        <img src="../utilities/images/10.jpg" alt="" />
+        <img src="utilities/images/10.jpg" alt="" />
         <div class="discription">
           <h4>Excel Space</h4>
           <p>Living room / cushion / decoration</p>
@@ -218,7 +218,7 @@
               <a
                 href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                 target="_blank">
-                <img src="../utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
+                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
                 <span>Chat us</span>
               </a>
             </button>
@@ -232,7 +232,7 @@
 
       <!-- Display eight -->
       <div class="goodsdisplay">
-        <img src="../utilities/images/12.jpg" alt="" />
+        <img src="utilities/images/12.jpg" alt="" />
         <div class="discription">
           <h4>Excel Space</h4>
           <p>Living room / cushion / decoration</p>
@@ -249,7 +249,7 @@
               <a
                 href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
                 target="_blank">
-                <img src="../utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
+                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
                 <span>Chat us</span>
               </a>
             </button>
@@ -262,6 +262,8 @@
       <!-- End of Display eight -->
     </section>
   </div>
+  <?php include_once "footer/footer.html" ?>
+  <script src="productutilities/furniture.js"></script>
 </body>
 
 </html>
