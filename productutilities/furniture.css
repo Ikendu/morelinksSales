@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: aliceblue !important;
 }
 .furniture {
   max-width: 85%;
@@ -20,7 +21,14 @@ body {
   background-color: #4a31c9;
   color: white;
 }
-
+.furniture-head {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+.furniture-head h3 {
+  font-size: 35px;
+}
 @media (max-width: 700px) {
   .furniture {
     max-width: 95%;
