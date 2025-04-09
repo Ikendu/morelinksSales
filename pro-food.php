@@ -5,18 +5,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="main/content.css">
+  <link rel="stylesheet" href="foods/foods.css">
   <title>Document</title>
 </head>
 
 <body>
   <?php include_once "header/header.php" ?>
-  <div class="food">
+  <div class="foods">
     <div class="back-button">
       <i class="fa-solid fa-arrow-left" onclick="window.history.back()"></i>
     </div>
     <div class="food-head">
-      <h3>Your Home and Office space deserve the best</h3>
-      <h5>and we are here to make that happen</h5>
+      <h3>MoreLinks welcomes you to Naija Fresh Foods!</h3>
+      <h5>Your #1 Source for Affordable, Locally-Grown Food Items</h5>
     </div>
 
     <section class="goods">
