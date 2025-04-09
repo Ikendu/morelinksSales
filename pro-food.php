@@ -16,6 +16,7 @@
       <i class="fa-solid fa-arrow-left" onclick="window.history.back()"></i>
     </div>
     <div class="food-head">
+      <h2>Feed Fresh</h2>
       <h3>MoreLinks welcomes you to Naija Fresh Foods!</h3>
       <h5>Your #1 Source for Affordable, Locally-Grown Food Items</h5>
     </div>
@@ -23,7 +24,7 @@
     <section class="goods">
       <!-- Display one -->
       <div class="goodsdisplay">
-        <img src="utilities/images/2.jpg" alt="" />
+        <img src="utilities/images/fbeans.png" alt="" />
         <div class="discription">
           <h4>Durable Fit</h4>
           <p>Sit out space</p>
@@ -54,7 +55,7 @@
 
       <!-- Display second -->
       <div class="goodsdisplay">
-        <img src="utilities/images/15.jpg" alt="" />
+        <img src="utilities/images/frice.jpg" alt="" />
         <div class="discription">
           <h4>Excel Space</h4>
           <p>Living room / cushion / decoration</p>
@@ -85,7 +86,7 @@
 
       <!-- Display Third -->
       <div class="goodsdisplay">
-        <img src="utilities/images/11.jpg" alt="" />
+        <img src="utilities/images/fgarri1.png" alt="" />
         <div class="discription">
           <h4>Durable Fit</h4>
           <p>Sit out space</p>
@@ -116,7 +117,7 @@
 
       <!-- Display fourth -->
       <div class="goodsdisplay">
-        <img src="utilities/images/3.jpg" alt="" />
+        <img src="utilities/images/fgarri2.png" alt="" />
         <div class="discription">
           <h4>Excel Space</h4>
           <p>Living room / cushion / decoration</p>
