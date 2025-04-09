@@ -8,6 +8,19 @@ body {
   padding-top: 140px;
 }
 
+.back-button {
+  padding: 5px 10px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.back-button:hover {
+  background-color: #4a31c9;
+  color: white;
+}
+
 @media (max-width: 700px) {
   .furniture {
     max-width: 95%;

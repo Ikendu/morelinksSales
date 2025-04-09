@@ -12,6 +12,14 @@
 <body>
   <?php include_once "header/header.php" ?>
   <div class="furniture">
+    <div class="back-button">
+      <i class="fa-solid fa-arrow-left" onclick="window.history.back()"></i>
+    </div>
+    <div class="">
+      <h3>Your space deserve the best</h3>
+      <h5>and we are here to make that happen</h5>
+    </div>
+
     <section class="goods">
       <!-- Display one -->
       <div class="goodsdisplay">

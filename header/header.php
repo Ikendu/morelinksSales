@@ -92,11 +92,12 @@
 
     </div>
     <swiper-container slides-per-view="4" breakpoints='{"460": {"slidesPerView": 6},  "600": {"slidesPerView": 8}, "1024": {"slidesPerView": 10} }' navigation="true" class="swiper-container">
-      <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="pro-furniture.php">Furnitures</a></swiper-slide>
-      <swiper-slide><a href="pro-food.php">Foods</a></swiper-slide>
-      <swiper-slide><a href="services.html">Others</a></swiper-slide>
+      <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="pro-furniture.php" class="topics">Furnitures</a></swiper-slide>
+      <swiper-slide><a href="pro-food.php" class="topics">Foods</a></swiper-slide>
+      <swiper-slide><a href="services.html" class="topics">Others</a></swiper-slide>
       <swiper-slide>|</swiper-slide>
       <swiper-slide><a href="news.html">Office</a></swiper-slide>
+      <swiper-slide><a href="news.html">Outdoor</a></swiper-slide>
       <swiper-slide><a href="news.html">Outdoor</a></swiper-slide>
       <swiper-slide><a href="news.html">Kitchen</a></swiper-slide>
       <swiper-slide><a href="news.html">Bathroom</a></swiper-slide>

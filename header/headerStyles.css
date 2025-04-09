@@ -135,6 +135,11 @@ swiper-container swiper-slide a {
   font-size: 0.9em;
   font-weight: 600;
 }
+.topics {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1rem;
+  color: #3b3a44;
+}
 
 nav ul li a:hover {
   color: #028d41;
