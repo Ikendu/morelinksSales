@@ -141,8 +141,3 @@ swiper-container::part(button-next) {
     font-size: 0.75em;
   }
 }
-
-/* Small mobile */
-@media (max-width: 320px) {
-  /* Styles for small mobile devices */
-}

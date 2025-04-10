@@ -71,6 +71,8 @@ function updateCart() {
 
   cartCount.innerText = totalQuantity
   document.getElementById('total-price').innerText = total.toFixed(2)
+
+  document.getElementById('total-price2').innerText = totalPrice.toFixed(2)
 }
 
 function checkout() {
