@@ -24,6 +24,7 @@ body {
 .furniture-head {
   max-width: 800px;
   margin: 40px auto;
+  margin-bottom: 80px;
   text-align: center;
 }
 .furniture-head h3 {
