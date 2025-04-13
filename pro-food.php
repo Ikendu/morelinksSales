@@ -22,6 +22,36 @@
     </div>
 
     <section class="goods">
+      <!-- Display zero -->
+      <div class="goodsdisplay">
+        <img src="utilities/images/fegg.jpg" alt="" />
+        <div class="discription">
+          <h4>Durable Fit</h4>
+          <p>Sit out space</p>
+          <div class="price">
+            <h5>₦ 200,000</h5>
+            <div class="addMore">
+              <button onclick="updateProductQuantity('Product1', 20, 1, 'fegg.jpg')">+</button>
+              <span id="quantityProduct1">0</span>
+              <button onclick="updateProductQuantity('Product1', 20, -1, 'fegg.jpg')">-</button>
+            </div>
+          </div>
+          <div class="btnSales">
+            <button class="reachUsBtn">
+              <a
+                href="https://wa.me/2348061632276?text=Hello%20there!%20I%20need%20a%20furniture"
+                target="_blank">
+                <img src="utilities/icons/whatsapp.png" alt="More-Link Whatsapp" />
+                <span>Chat us</span>
+              </a>
+            </button>
+            <button class="cartBtn" id="Product1" onclick="addToCart('Product1', 20, 'fegg.jpg',)">
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- End of Display one -->
       <!-- Display one -->
       <div class="goodsdisplay">
         <img src="utilities/images/fbeans.png" alt="" />
