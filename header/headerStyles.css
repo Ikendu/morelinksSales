@@ -4,6 +4,9 @@ header {
   z-index: 100;
   width: 100%;
 }
+a:hover {
+  color: #222299;
+}
 .header {
   position: relative;
   display: flex;
@@ -126,7 +129,7 @@ header {
 
 swiper-container swiper-slide {
   padding: 10px;
-  cursor: pointer;
+  /* cursor: pointer; */
   list-style: none;
 }
 swiper-container swiper-slide a {

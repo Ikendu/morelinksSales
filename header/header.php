@@ -30,6 +30,11 @@
       <div class="headerlinks">
         <ul>
           <li>
+            <a href="index.php" class="active">
+              <i class="fa-solid fa-house"></i>
+            </a>
+          </li>
+          <li>
             <a href="contact-us.php">
               <img src="utilities/icons/contact.png" alt="Contact us">
               Contact Us
@@ -60,6 +65,10 @@
 
       <!-- Navbar for Mobile view -->
       <div class="mobilenav" id="mobilenav">
+
+        <a href="index.php" class="active">
+          <i class="fa-solid fa-house"></i>
+        </a>
         <a href="contact-us.php">
           <i class="fa-solid fa-phone-volume"></i>
           Contact Us
@@ -93,20 +102,21 @@
     </div>
     <swiper-container slides-per-view="4" breakpoints='{"460": {"slidesPerView": 6},  "600": {"slidesPerView": 8}, "1024": {"slidesPerView": 10} }' navigation="true" class="swiper-container">
       <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="pro-furniture.php" class="topics">Furnitures</a></swiper-slide>
-      <swiper-slide><a href="pro-food.php" class="topics">Foods</a></swiper-slide>
+      <!--  <swiper-slide><a href="pro-food.php" class="topics">Foods</a></swiper-slide>
       <swiper-slide><a href="services.html" class="topics">Others</a></swiper-slide>
-      <swiper-slide>|</swiper-slide>
-      <swiper-slide><a href="news.html">Office</a></swiper-slide>
-      <swiper-slide><a href="news.html">Outdoor</a></swiper-slide>
-      <swiper-slide><a href="news.html">Outdoor</a></swiper-slide>
-      <swiper-slide><a href="news.html">Kitchen</a></swiper-slide>
-      <swiper-slide><a href="news.html">Bathroom</a></swiper-slide>
-      <swiper-slide><a href="news.html">Lighting</a></swiper-slide>
-      <swiper-slide><a href="news.html">Decor</a></swiper-slide>
-      <swiper-slide><a href="news.thml">Kitchen</a></swiper-slide>
-      <swiper-slide><a href="news.html">Bathroom</a></swiper-slide>
-      <swiper-slide><a href="news.html">Lighting</a></swiper-slide>
-      <swiper-slide><a href="news.html">Decor</a></swiper-slide>
+      <swiper-slide>|</swiper-slide> -->
+      <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="news.html" target="_blank">Office</a></swiper-slide>
+      <swiper-slide><a href="news.html" target="_blank">Outdoor</a></swiper-slide>
+      <swiper-slide><a href="news.html" target="_blank">Kitchen</a></swiper-slide>
+      <swiper-slide><a href="news.html" target="_blank">Kids Conner</a></swiper-slide>
+      <swiper-slide><a href="news.html" target="_blank">Lighting</a></swiper-slide>
+      <swiper-slide><a href="http://moredeco.com.ng" target="_blank">Event Decoration</a></swiper-slide>
+      <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="news.html" target="_blank">Office</a></swiper-slide>
+      <swiper-slide><a href="news.html" target="_blank">Outdoor</a></swiper-slide>
+      <swiper-slide><a href="news.html" target="_blank">Kitchen</a></swiper-slide>
+      <swiper-slide><a href="news.html" target="_blank">Kids Conner</a></swiper-slide>
+      <swiper-slide><a href="news.html" target="_blank">Lighting</a></swiper-slide>
+      <swiper-slide><a href="news.html" target="_blank">Event Decoration</a></swiper-slide>
     </swiper-container>
     <div class="cart-container" id="cart">
       <div class="cart-header">

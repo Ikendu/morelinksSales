@@ -39,6 +39,9 @@
                             <div class="carousel-item" data-bs-interval="3000">
                                 <img src="utilities/images/slide2.jpg" class="d-block w-100 displayImage" alt="sixth slide">
                             </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="utilities/images/fine.png" class="d-block w-100 displayImage" alt="sixth slide">
+                            </div>
                         </div>
                     </div>
                 </div>
