@@ -23,16 +23,16 @@
         <section class="goods">
             <!-- Display one -->
             <div class="goodsdisplay">
-                <img src="utilities/images/2.jpg" alt="" />
+                <img src="utilities/images/kit1.jpg" alt="" />
                 <div class="discription">
                     <h4>Durable Fit</h4>
                     <p>Sit out space</p>
                     <div class="price">
                         <h5>₦ 200,000</h5>
                         <div class="addMore">
-                            <button onclick="updateProductQuantity('Product1', 20, 1, '2.jpg')">+</button>
+                            <button onclick="updateProductQuantity('Product1', 20, 1, 'kit1.jpg')">+</button>
                             <span id="quantityProduct1">0</span>
-                            <button onclick="updateProductQuantity('Product1', 20, -1, '2.jpg')">-</button>
+                            <button onclick="updateProductQuantity('Product1', 20, -1, 'kit1.jpg')">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
@@ -44,7 +44,7 @@
                                 <span>Chat us</span>
                             </a>
                         </button>
-                        <button class="cartBtn" id="Product1" onclick="addToCart('Product1', 20, '2.jpg',)">
+                        <button class="cartBtn" id="Product1" onclick="addToCart('Product1', 20, 'kit1.jpg',)">
                             Add to cart
                         </button>
                     </div>
@@ -54,16 +54,16 @@
 
             <!-- Display second -->
             <div class="goodsdisplay">
-                <img src="utilities/images/15.jpg" alt="" />
+                <img src="utilities/images/kit2.jpg" alt="" />
                 <div class="discription">
                     <h4>Excel Space</h4>
                     <p>Living room / cushion / decoration</p>
                     <div class="price">
                         <h5>₦ 400,000</h5>
                         <div class="addMore">
-                            <button onclick="updateProductQuantity('Product2', 40, 1, '15.jpg')">+</button>
+                            <button onclick="updateProductQuantity('Product2', 40, 1, 'kit2.jpg')">+</button>
                             <span id="quantityProduct2">0</span>
-                            <button onclick="updateProductQuantity('Product2', 40, -1, '15.jpg')">-</button>
+                            <button onclick="updateProductQuantity('Product2', 40, -1, 'kit2.jpg')">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
@@ -75,7 +75,7 @@
                                 <span>Chat us</span>
                             </a>
                         </button>
-                        <button class="cartBtn" id="Product2" onclick="addToCart('Product2', 40, '15.jpg',)">
+                        <button class="cartBtn" id="Product2" onclick="addToCart('Product2', 40, 'kit2.jpg',)">
                             Add to cart
                         </button>
                     </div>
@@ -85,16 +85,16 @@
 
             <!-- Display Third -->
             <div class="goodsdisplay">
-                <img src="utilities/images/11.jpg" alt="" />
+                <img src="utilities/images/kit3.jpg" alt="" />
                 <div class="discription">
                     <h4>Durable Fit</h4>
                     <p>Sit out space</p>
                     <div class="price">
                         <h5>₦ 200,000</h5>
                         <div class="addMore">
-                            <button onclick="updateProductQuantity('Product3', 20, 1, '11.jpg')">+</button>
+                            <button onclick="updateProductQuantity('Product3', 20, 1, 'kit3.jpg')">+</button>
                             <span id="quantityProduct3">0</span>
-                            <button onclick="updateProductQuantity('Product3', 20, -1, '11.jpg')">-</button>
+                            <button onclick="updateProductQuantity('Product3', 20, -1, 'kit3.jpg')">-</button>
                         </div>
                     </div>
                     <div class="btnSales">
@@ -106,7 +106,7 @@
                                 <span>Chat us</span>
                             </a>
                         </button>
-                        <button class="cartBtn" id="Product3" onclick="addToCart('Product3', 20, '11.jpg',)">
+                        <button class="cartBtn" id="Product3" onclick="addToCart('Product3', 20, 'kit3.jpg',)">
                             Add to cart
                         </button>
                     </div>
