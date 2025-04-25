@@ -105,18 +105,16 @@
       <!--  <swiper-slide><a href="pro-food.php" class="topics">Foods</a></swiper-slide>
       <swiper-slide><a href="services.html" class="topics">Others</a></swiper-slide>
       <swiper-slide>|</swiper-slide> -->
-      <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="news.html" target="_blank">Office</a></swiper-slide>
-      <swiper-slide><a href="news.html" target="_blank">Outdoor</a></swiper-slide>
-      <swiper-slide><a href="news.html" target="_blank">Kitchen</a></swiper-slide>
-      <swiper-slide><a href="news.html" target="_blank">Kids Conner</a></swiper-slide>
-      <swiper-slide><a href="news.html" target="_blank">Lighting</a></swiper-slide>
+      <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="pro-office.php">Office</a></swiper-slide>
+      <swiper-slide><a href="pro-outdoor.php">Outdoor</a></swiper-slide>
+      <swiper-slide><a href="pro-kitchen.php">Kitchen</a></swiper-slide>
+      <swiper-slide><a href="pro-kids.php">Kids Conner</a></swiper-slide>
       <swiper-slide><a href="http://moredeco.com.ng" target="_blank">Event Decoration</a></swiper-slide>
-      <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="news.html" target="_blank">Office</a></swiper-slide>
-      <swiper-slide><a href="news.html" target="_blank">Outdoor</a></swiper-slide>
-      <swiper-slide><a href="news.html" target="_blank">Kitchen</a></swiper-slide>
-      <swiper-slide><a href="news.html" target="_blank">Kids Conner</a></swiper-slide>
-      <swiper-slide><a href="news.html" target="_blank">Lighting</a></swiper-slide>
-      <swiper-slide><a href="news.html" target="_blank">Event Decoration</a></swiper-slide>
+      <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="pro-office.php" target="_blank">Office</a></swiper-slide>
+      <swiper-slide><a href="pro-outdoor.php">Outdoor</a></swiper-slide>
+      <swiper-slide><a href="pro-kitchen.php">Kitchen</a></swiper-slide>
+      <swiper-slide><a href="pro-kids.php">Kids Conner</a></swiper-slide>
+      <swiper-slide><a href="http://moredeco.com.ng" target="_blank">Event Decoration</a></swiper-slide>
     </swiper-container>
     <div class="cart-container" id="cart">
       <div class="cart-header">
