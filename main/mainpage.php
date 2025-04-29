@@ -28,7 +28,7 @@
                     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="3000">
-                                <img src="utilities/images/smile0.png" class="d-block w-100 displayImage" alt="more links ">
+                                <img src="utilities/images/ceo.jpg" class="d-block w-100 displayImage" alt="more links ">
                             </div>
                             <div class="carousel-item " data-bs-interval="3000">
                                 <img src="utilities/images/slide12.png" class="d-block w-100 displayImage" alt="four slide">
