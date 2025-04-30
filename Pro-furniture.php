@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="main/content.css">
   <link rel="stylesheet" href="productutilities/furniture.css">
-  <title>Document</title>
+  <title>More-links - Furniture</title>
 </head>
 
 <body>
