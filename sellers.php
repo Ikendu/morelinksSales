@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./sellers/seller.css?v=<?php echo time(); ?>">
-    <title>Document</title>
+    <title>More-links - Sellers Form</title>
 </head>
 
 <body>
