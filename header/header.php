@@ -101,20 +101,20 @@
 
     </div>
     <swiper-container slides-per-view="4" breakpoints='{"460": {"slidesPerView": 6},  "600": {"slidesPerView": 8}, "1024": {"slidesPerView": 10} }' navigation="true" class="swiper-container">
-      <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="pro-furniture.php" class="topics">Furnitures</a></swiper-slide>
+      <swiper-slide><a href="pro-furniture.php">Furnitures</a></swiper-slide>
       <!--  <swiper-slide><a href="pro-food.php" class="topics">Foods</a></swiper-slide>
       <swiper-slide><a href="services.html" class="topics">Others</a></swiper-slide>
       <swiper-slide>|</swiper-slide> -->
-      <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="pro-office.php">Office</a></swiper-slide>
+      <swiper-slide><a href="pro-office.php">Office</a></swiper-slide>
       <swiper-slide><a href="pro-outdoor.php">Outdoor</a></swiper-slide>
       <swiper-slide><a href="pro-kitchen.php">Kitchen</a></swiper-slide>
-      <swiper-slide><a href="pro-kids.php">Kids Conner</a></swiper-slide>
-      <swiper-slide><a href="http://moredeco.com.ng">Event Decoration</a></swiper-slide>
-      <swiper-slide>&nbsp; &nbsp; &nbsp;<a href="pro-office.php">Office</a></swiper-slide>
+      <swiper-slide><a href="pro-kids.php">Kids&nbsp;Conner</a></swiper-slide>
+      <swiper-slide><a href="http://moredeco.com.ng">Event&nbsp;Decoration</a></swiper-slide>
+      <swiper-slide><a href="pro-office.php">Office</a></swiper-slide>
       <swiper-slide><a href="pro-outdoor.php">Outdoor</a></swiper-slide>
       <swiper-slide><a href="pro-kitchen.php">Kitchen</a></swiper-slide>
-      <swiper-slide><a href="pro-kids.php">Kids Conner</a></swiper-slide>
-      <swiper-slide><a href="http://moredeco.com.ng">Event Decoration</a></swiper-slide>
+      <swiper-slide><a href="pro-kids.php">Kids&nbsp;Conner</a></swiper-slide>
+      <swiper-slide><a href="http://moredeco.com.ng">Event&nbsp;Decoration</a></swiper-slide>
     </swiper-container>
     <div class="cart-container" id="cart">
       <div class="cart-header">

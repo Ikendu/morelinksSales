@@ -35,7 +35,7 @@ swiper-container::part(button-next) {
 @media (max-width: 768px) {
   /* Styles for tablets in portrait mode */
   .swiper-container .swiper-slide {
-    padding: 8px;
+    padding: 0 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,7 +122,7 @@ swiper-container::part(button-next) {
   }
 
   .swiper-container .swiper-slide {
-    padding: 6px;
+    padding: 0 6px;
   }
 
   .swiper-container .swiper-slide a {
@@ -134,7 +134,7 @@ swiper-container::part(button-next) {
   /* Styles for mobile devices */
 
   .swiper-container .swiper-slide {
-    padding: 6px;
+    /* padding: 6px; */
   }
 
   .swiper-container .swiper-slide a {
