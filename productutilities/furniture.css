@@ -28,7 +28,17 @@ body {
   text-align: center;
 }
 .furniture-head h3 {
-  font-size: 35px;
+  font-size: 45px;
+  margin-bottom: 30px;
+  color: #0a3ff0;
+  font-weight: 700;
+}
+.divider {
+  width: 60%;
+  height: 1px;
+  background-color: #0a3ff0;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 @media (max-width: 700px) {
   .furniture {

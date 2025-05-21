@@ -16,8 +16,8 @@
             <i class="fa-solid fa-arrow-left" onclick="window.history.back()"></i>
         </div>
         <div class="furniture-head">
-            <h3>Your Home and Office space deserve the best</h3>
-            <h5>and we are here to make that happen</h5>
+            <h3>Style Meets the Open Air</h3>
+            <h5>Transform your outdoor spaces with durable, weather-friendly furniture perfect for relaxation, hosting, and making memories under the sky.</h5>
         </div>
 
         <section class="goods">

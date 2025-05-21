@@ -16,8 +16,10 @@
       <i class="fa-solid fa-arrow-left" onclick="window.history.back()"></i>
     </div>
     <div class="furniture-head commonsize">
-      <h3>Your Home and Office space deserve the best</h3>
-      <h5>and we are here to make that happen</h5>
+      <h3>Comfort That Welcomes You Home</h3>
+      <div class="divider"></div>
+      <h4>Rest, Recharge, and Relax in Style</h4>
+      <h5>Furnish your living space with cozy, elegant sofas, tables, and decor pieces that bring warmth, style, and connection to every gathering. </h5>
     </div>
 
     <section class="goods">

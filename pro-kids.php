@@ -16,8 +16,8 @@
             <i class="fa-solid fa-arrow-left" onclick="window.history.back()"></i>
         </div>
         <div class="furniture-head">
-            <h3>Your Home and Office space deserve the best</h3>
-            <h5>and we are here to make that happen</h5>
+            <h3>Where Fun Meets Functiont</h3>
+            <h5>Create a world of comfort and creativity for your little ones with safe, colorful, and playful furniture designed just for kids.</h5>
         </div>
 
         <section class="goods">
