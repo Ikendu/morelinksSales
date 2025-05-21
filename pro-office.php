@@ -17,6 +17,7 @@
         </div>
         <div class="furniture-head">
             <h3>Elevate Your Workspace</h3>
+            <div class="divider"></div>
             <h5>Discover ergonomic, stylish, and functional furniture designed to boost productivity and inspire professionalism in any office setting.</h5>
         </div>
 

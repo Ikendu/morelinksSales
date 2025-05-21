@@ -17,6 +17,7 @@
         </div>
         <div class="furniture-head">
             <h3>Style Meets the Open Air</h3>
+            <div class="divider"></div>
             <h5>Transform your outdoor spaces with durable, weather-friendly furniture perfect for relaxation, hosting, and making memories under the sky.</h5>
         </div>
 

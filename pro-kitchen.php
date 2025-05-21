@@ -17,6 +17,7 @@
         </div>
         <div class="furniture-head">
             <h3>Cook, Dine & Connect in Style</h3>
+            <div class="divider"></div>
             <h5>Explore sleek, practical kitchen furniture and storage solutions that bring efficiency and elegance to the heart of your home.
 
             </h5>

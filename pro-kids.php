@@ -17,6 +17,7 @@
         </div>
         <div class="furniture-head">
             <h3>Where Fun Meets Functiont</h3>
+            <div class="divider"></div>
             <h5>Create a world of comfort and creativity for your little ones with safe, colorful, and playful furniture designed just for kids.</h5>
         </div>
 
