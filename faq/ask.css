@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.askcontainer {
+  /* padding: 50px; */
+  padding-top: 150px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+.askheader {
+  color: #c7c9ca;
+  padding: 40px 0;
+}
+.askheader h2 {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+.askheader .subtext {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+.askmain {
+  position: absolute;
+  width: 84.1%;
+  right: 0;
+  margin: auto;
+}
+
+.askpage section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.askheader section h3 {
+  text-align: left;
+}
+#accordionExample {
+  max-width: 70%;
+}
+section h3 {
+  color: #9fa2f8;
+  padding: 30px 0;
+}
+.accordion-item {
+  color: #0f0f0f !important;
+  background-color: #9599f8 !important;
+}
+
+@media (max-width: 800px) {
+  .askheader h2 {
+    font-size: 30px;
+  }
+  .advert {
+    display: none;
+  }
+  .askmain {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .askcontainer {
+    padding-top: 100px;
+  }
+  .askheader {
+    padding-bottom: 20px;
+  }
+  #accordionExample {
+    max-width: 90%;
+  }
+  .askheader .subtext {
+    padding: 0 10px;
+  }
+}

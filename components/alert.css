@@ -1,0 +1,45 @@
+/* Modal background */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  cursor: zoom-in;
+}
+
+/* Modal content */
+.modal-content {
+  font-size: 0.8em;
+  color: brown;
+  padding: 20px;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content p {
+  color: #000;
+}
+
+/* Close button */
+.close {
+  cursor: pointer;
+  padding: 1px 6px 3px;
+  background-color: brown;
+  color: aliceblue;
+  border-radius: 50%;
+}
+.closeEnd {
+  display: flex;
+  justify-content: right;
+}
+.thanks {
+  color: blue !important;
+  text-align: right;
+  margin: 0;
+}

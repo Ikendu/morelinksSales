@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #dde3e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* max-width: 700px; */
+}
+.paymentpage {
+  max-width: 700px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: start;
+  padding: 20px 0;
+  border-bottom: 2px dashed blue;
+}
+header h2 {
+  margin: -10px 0 10px 0;
+}
+header .notice span {
+  color: rgb(128, 23, 23);
+  font-weight: 700;
+}
+.logoimage {
+  width: 80px;
+  border-radius: 10px;
+}
+section {
+  border-bottom: 1px solid rgb(141, 141, 247);
+  padding: 20px 0;
+}
+.cardsection {
+}
+.cardsection span {
+  font-style: italic;
+  color: rgb(27, 68, 180);
+  font-size: 13px;
+}
+.paymentoptions {
+  display: flex;
+  justify-content: space-between;
+}
+.select {
+  background-color: #cdd3da;
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: 1px white solid;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.select:hover {
+  background-color: rgb(124, 247, 165);
+}
+.paystack {
+  gap: 10px;
+  font-size: 30px;
+}
+.paystack h4 {
+  margin: 0;
+}
+.paystack img {
+  width: 50px;
+}
+.banks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.banks img {
+  width: 50px;
+  margin-top: 6px;
+}
+.bankDetails {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  border-bottom: 1px solid #6b6a6a;
+  padding: 20px 0;
+}
+.bankDetails p {
+  margin: 0;
+}
+.success {
+  color: #046604;
+}
+.failed {
+  color: #aa0c0c;
+}
+.paymentsuccess h3 {
+  color: rgb(33, 33, 134);
+}
+.payinfo {
+  display: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #a5a3a3;
+  color: #046604;
+}
+.table {
+  display: none;
+  text-align: left;
+}
+table,
+tr,
+td,
+th {
+  border: 2px solid #a5a3a3;
+  border-collapse: collapse;
+  background-color: #cdd3da;
+  padding: 10px;
+}
+.print {
+  color: aliceblue;
+  background-color: #18186d;
+  padding: 10px 20px;
+  margin: 20px;
+  display: none;
+}
+@media print {
+  .print {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .banks {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .paymentoptions {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .select {
+    max-width: 300px;
+  }
+}

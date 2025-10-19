@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="confrim.css" />
+    <title>Payment Status</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="paymentsuccess">
+      <img src="../utilities/icons/logoImage.png" alt="" class="logoimage" />
+      <h2 id="status">Thank you for choosing MoreLinks Concept</h2>
+      <h3>Thank you for choosing MoreLinks Concept</h3>
+      <!-- <p id="message">Please wait while we verify your transaction.</p> -->
+      <p id="lastMessage"></p>
+
+      <div class="payinfo" id="payinfo">Payment information</div>
+      <table class="table" id="table">
+        <tr>
+          <th>Payment ID</th>
+          <td id="payment-id"></td>
+        </tr>
+        <tr>
+          <th>Status</th>
+          <td id="payment-status"></td>
+        </tr>
+        <tr>
+          <th>Transaction ID</th>
+          <td id="transaction-id"></td>
+        </tr>
+        <tr>
+          <th>Amount</th>
+          <td>₦<span id="amount"></span></td>
+        </tr>
+        <tr>
+          <th>Customer Name</th>
+          <td id="customer-name"></td>
+        </tr>
+        <tr>
+          <th>Customer Email</th>
+          <td id="customer-phone"></td>
+        </tr>
+        <tr>
+          <th>Customer Email</th>
+          <td id="customer-email"></td>
+        </tr>
+      </table>
+    </div>
+    <button class="print" id="print" onclick="window.print()">Print</button>
+
+    <script src="payment.js"></script>
+  </body>
+</html>

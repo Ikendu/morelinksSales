@@ -1,0 +1,141 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sellercontainer {
+  width: 100%;
+}
+.sellerspage {
+  position: absolute;
+  width: 84.1%;
+  top: 50px;
+  right: 0;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: aliceblue;
+}
+.mainpage {
+  padding: 100px;
+}
+.sellerheader {
+  margin: auto;
+  text-align: center;
+}
+
+.sucessMesg {
+  color: rgb(245, 247, 160);
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  /* display: none; */
+}
+
+/* CP */
+.sellermain {
+  max-width: 700px;
+  padding: 30px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sellermain form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+input,
+textarea,
+button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.checker {
+  padding: 20px 0;
+}
+.checker input {
+  width: 20px;
+}
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+button {
+  background-color: #007bff;
+  color: rgb(219, 218, 218);
+  border: none;
+  font-size: 19px;
+  border-radius: 5px;
+}
+button a {
+  color: aliceblue;
+  text-decoration: none;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+.slide-in {
+  transform: translateY(30px);
+  opacity: 0;
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .sellerspage {
+    width: 100%;
+  }
+  .sellermain {
+    padding: 15px;
+  }
+  input,
+  textarea,
+  button {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .sellermain form {
+    gap: 10px;
+  }
+  .mainpage {
+    padding: 80px 30px;
+  }
+  .sellermain {
+    padding: 10px;
+  }
+  input,
+  textarea,
+  button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 420px) {
+  .mainpage {
+    padding: 80px 10px;
+  }
+  .sellermain {
+    padding: 5px;
+  }
+  input,
+  textarea,
+  button {
+    font-size: 10px;
+  }
+}

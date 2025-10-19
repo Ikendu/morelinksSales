@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+.fa-arrow-left {
+  cursor: pointer;
+}
+.contactpage {
+  width: 100%;
+  padding: 170px 0 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* height: 100vh; */
+  color: white;
+}
+
+.container {
+  width: 40%;
+  background: hsla(0, 0%, 100%, 0.102);
+  padding: 50px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  /* width: 400px; */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.contactdetails {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 50px;
+}
+.contactdetails h3 {
+  font-size: 40px;
+}
+.contactdetails h4 {
+  font-size: 25px;
+}
+.contactdetails a {
+  color: #d0d1d3;
+}
+.contacts {
+  display: flex;
+  gap: 20px;
+}
+.contacts span {
+  color: #d0d1d3;
+}
+.contact-titles {
+  color: #d0d1d3;
+}
+.contact-titles p {
+  padding: 5px;
+}
+.allcontact p {
+  padding: 5px;
+}
+.contact-whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: -5px;
+  max-width: 127px;
+  border-radius: 5px;
+}
+.contact-whatsapp:hover {
+  background-color: #05af5a;
+  color: black;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+textarea {
+  height: 150px;
+}
+
+button {
+  background: #ff7eb3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ff4d94;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  transform: translateY(30px);
+  opacity: 0;
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactpage {
+    flex-direction: column;
+    padding: 100px 0;
+  }
+
+  .container {
+    width: 100%;
+    padding: 30px;
+  }
+  .container h2 {
+    font-size: 20px;
+  }
+  .contactdetails {
+    width: 100%;
+    padding: 20px;
+    margin-left: 0;
+  }
+  .contactdetails h3 {
+    font-size: 30px;
+  }
+  .contactdetails h4 {
+    font-size: 20px;
+  }
+  .contactdetails p {
+    font-size: 13px;
+  }
+}
+
+/* Loading Spinner */
+/* .spinner {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid white;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 0.8s linear infinite;
+    margin-right: 5px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+} */
+
+/* Success Animation */
+/* .success-animation {
+  animation: fadeOut 2s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */

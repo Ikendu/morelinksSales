@@ -1,0 +1,146 @@
+footer {
+  width: 100%;
+  background: url('utilities/images/15.jpg') no-repeat center center/cover fixed;
+  background-color: #090f30;
+  color: rgb(168, 166, 166);
+}
+.upperfooter {
+  background-color: #090f30e1;
+}
+
+.footercontent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 100px 20px;
+  line-height: 35px;
+}
+.footercontent a:hover {
+  color: aliceblue;
+}
+.footercontent0 {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  max-width: 500px;
+}
+.footercontent0 img {
+  width: 120px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+li {
+  margin-right: 20px;
+}
+.padding ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-width: 300px;
+  min-width: 200px;
+}
+li a {
+  color: #949292;
+  text-decoration: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.acceptcards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* justify-content: end; */
+}
+
+.acceptcards div {
+  align-self: last baseline;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.acceptcards .cards {
+  margin-right: 20px;
+}
+.acceptcards .cards img {
+  width: 30px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px;
+  background-color: #262329;
+  font-size: 0.9em;
+}
+.footeright {
+  max-width: 500px;
+}
+.footeright a {
+  background-color: #661616;
+  color: #f5f2f2 !important;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 768px) {
+  .footercontent {
+    align-items: flex-start;
+    justify-content: left;
+  }
+  .padding ul {
+    max-width: 250px;
+    min-width: 150px;
+  }
+  li {
+    margin-right: 10px;
+  }
+  .padding {
+    padding: 15px;
+  }
+
+  .footer {
+    font-size: 0.7em;
+    word-spacing: 2px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+  }
+}
+@media (max-width: 480px) {
+  footer {
+    font-size: 0.85em;
+  }
+  .footercontent {
+    padding: 40px 30px;
+  }
+
+  .footercontent0 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footercontent0 img {
+    width: 80px;
+    margin-right: 0;
+  }
+  .footercontent0 {
+    gap: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .footercontent {
+    padding: 40px 10px;
+  }
+}

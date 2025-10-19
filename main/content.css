@@ -1,0 +1,156 @@
+.maincontent {
+  position: relative;
+  background-color: #d4d5d6;
+  padding: 50px 30px;
+}
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divide {
+  width: 50%;
+  height: 1px;
+  background-color: #2b2a2a;
+  margin: 40px 0;
+}
+.goods {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contentHead h3 {
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+.goodsdisplay {
+  position: relative;
+  width: 47%;
+}
+.goodsdisplay img {
+  width: 100%;
+  max-height: 370px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.discription {
+  margin: 20px;
+}
+
+.price {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.price h5 {
+  color: rgb(126, 23, 23);
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.addMore {
+  display: flex;
+  gap: 10px;
+}
+.addMore button {
+  background-color: #8a8a8d;
+  color: #dad7d7;
+  padding: 0px 10px 1px;
+  border-radius: 3px;
+  font-size: 1.1em;
+  border: none;
+}
+.addMore button:hover {
+  background-color: #22702e;
+}
+.btnSales {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.cartBtn,
+.reachUsBtn {
+  width: max(40%, 40px);
+  border-radius: 10px;
+  padding: 10px 15px !important;
+  align-items: center;
+  gap: 2px;
+  color: #dad9d8;
+  border: none;
+  font-size: 1em !important;
+}
+.cartBtn:hover,
+.reachUsBtn:hover {
+  background-color: #22702e;
+  cursor: pointer;
+}
+.reachUsBtn {
+  background-color: #38a048;
+  text-align: center;
+}
+.reachUsBtn a {
+  color: #dad9d8;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.reachUsBtn img {
+  max-width: 15px;
+}
+.cartBtn {
+  background-color: #222299;
+  text-align: center;
+}
+
+.cartBtn:active,
+.reachUsBtn:active {
+  background-color: rgb(112, 185, 2);
+  /* background-color: #ebeef1; */
+}
+
+@media (max-width: 858px) {
+  .maincontent {
+    padding: 50px 20px;
+  }
+  .goodsdisplay {
+    width: 100%;
+    padding: 15px 30px;
+  }
+  .goodsdisplay img {
+    max-height: 450px;
+  }
+  .contentHead h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 500px) {
+  .goodsdisplay {
+    padding: 15px 0px;
+  }
+  .goodsdisplay img {
+    max-height: 450px;
+  }
+  .contentHead h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .cartBtn,
+  .reachUsBtn {
+    width: max(40%, 20px);
+    border-radius: 10px;
+    padding: 5px 10px !important;
+    align-items: center;
+    gap: 5px;
+    color: #dad9d8;
+    border: none;
+    font-size: 0.8em !important;
+  }
+}

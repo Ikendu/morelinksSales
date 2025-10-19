@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="confrim.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="paymentpage">
+      <header>
+        <img src="../utilities/icons/logoImage.png" alt="" class="logoimage" />
+        <div>
+          <h2>Payment confirmation</h2>
+          <p class="notice">
+            <span>Note!</span> Shipping or Transportation Fee of furniture is not included with the
+            payment, it will depend on your location. <br />You are also at liberty to come and see
+            or pick up your funiture from our location
+          </p>
+        </div>
+      </header>
+      <div class="allpayment">
+        <section class="cardsection">
+          <div>
+            <h3>Credit/Debit Card Payment <span>(recommended)</span></h3>
+          </div>
+          <div class="paymentoptions">
+            <button class="select" onclick="payWithFlutterwave()">
+              <img src="../utilities/icons/flutterwave.png" alt="" />
+            </button>
+            <button class="paystack select" onclick="payWithPaystack()">
+              <img src="../utilities/icons/paystack1.png" alt="" />
+              <h4>Paystack</h4>
+            </button>
+          </div>
+        </section>
+        <section class="">
+          <div>
+            <h3>Mobile Bank Transfer</h3>
+            <p>Make trasfer to the following bank account details</p>
+            <div class="banks">
+              <div class="bankDetails">
+                <img src="../utilities/icons/firstbank.png" alt="First Bank" />
+                <div>
+                  <p>First Bank</p>
+                  <p>3091645703</p>
+                  <p>Aniede Chibundu David</p>
+                </div>
+              </div>
+              <div class="bankDetails">
+                <img src="../utilities/icons/uba.png" alt="UBA Bank" />
+                <div>
+                  <p>UBA</p>
+                  <p>2054419078</p>
+                  <p>Aniede Chibundu David</p>
+                </div>
+              </div>
+              <div class="bankDetails">
+                <img src="../utilities/icons/fidelitybank.png" alt="Fiderity bank" />
+                <div>
+                  <p>UBA</p>
+                  <p>6590327780</p>
+                  <p>Aniede Chibundu David</p>
+                </div>
+              </div>
+              <div class="bankDetails">
+                <img src="../utilities/icons/wemabank.png" alt="Wema Bank" />
+                <div>
+                  <p>UBA</p>
+                  <p>8543927306</p>
+                  <p>Aniede Chibundu David</p>
+                </div>
+              </div>
+            </div>
+
+            <p>Forward the payment details our email or Whatsapp for confirmation</p>
+            <div>
+              <p>Email</p>
+              <p>Whatsapp</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            <h3>Cash Transaction</h3>
+            <p>
+              All cash transactions could be done by mobile transfer or at the bank premises, using
+              the any of the account detail mentioned above, for security purpose.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="https://checkout.flutterwave.com/v3.js"></script>
+    <script src="https://js.paystack.co/v2/inline.js"></script>
+    <script src="payment.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue !important;
+}
+.furniture {
+  max-width: 85%;
+  margin: auto;
+  padding-top: 140px;
+}
+
+.back-button {
+  padding: 5px 10px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.back-button:hover {
+  background-color: #4a31c9;
+  color: white;
+}
+.furniture-head {
+  max-width: 800px;
+  margin: 0px auto;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.furniture-head h3 {
+  font-size: 45px;
+  margin-bottom: 30px;
+  color: #0a3ff0;
+  font-weight: 700;
+}
+.divider {
+  width: 60%;
+  height: 1px;
+  background-color: #0a3ff0;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+  .furniture {
+    max-width: 95%;
+  }
+}
